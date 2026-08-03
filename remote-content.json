@@ -1,8 +1,550 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T01:10:53.282Z",
-  "contentVersion": "publish-global-2026-08-02-u-s-halts-planned-iran-strikes-after-gulf-intervention-oil-eases-1785719454167",
+  "generatedAt": "2026-08-03T05:16:19.753Z",
+  "contentVersion": "publish-global-2026-08-03-doe-extends-202-c-emergency-authority-to-spp-with-explicit-data-center-b-1785734180703",
   "insights": [
+    {
+      "id": "global-2026-08-03-doe-extends-202-c-emergency-authority-to-spp-with-explicit-data-center-b",
+      "slug": "doe-202c-spp-datacenter-backupgen-20260803",
+      "status": "update_living",
+      "processId": "process-energy-security",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "updatedAt": "2026-08-03T05:15:45.000Z",
+      "confidence": "verified",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "Energy becomes strategic capacity",
+            "secondaryEyebrow": "Emergency authority reframes large-load operations",
+            "title": "DOE extends 202(c) emergency authority to SPP with explicit data‑center backup‑gen direction, through Aug 3",
+            "summary": "A new federal order lets SPP, in last‑resort scarcity, direct data centers and other large loads to run on backup generation before or during an EEA‑3. As heat and AI demand stress the grid, shifting critical facilities off the bulk system becomes an operational tool—and a signal that reliable power now shapes digital growth."
+          },
+          "question": {
+            "lead": "A reliability lever just moved closer to the load.",
+            "title": "Will formal authority to island data centers on backup power become a standing reliability tool—and a siting constraint for AI expansion?",
+            "footnote": "Emergency Order No. 202‑26‑37, issued July 26, 2026, authorizes SPP to dispatch specified units and to direct backup generation at data centers and other large loads as a last resort before or during an EEA‑3, effective through 11:59 p.m. CDT on Monday, August 3, 2026."
+          },
+          "signals": {
+            "title": "What’s changing now",
+            "sourceNote": "Key developments and primary documents underlying today’s update.",
+            "items": [
+              {
+                "id": "sig-20260803-doe-202c-spp-backupgen-signal-1",
+                "label": "S1",
+                "title": "DOE order empowers SPP to direct data‑center backup generation in EEA‑3 conditions",
+                "body": "The order explicitly authorizes, as a last resort, directing backup generation at data centers and other large loads before or during an EEA‑3, alongside dispatch of specified units, within a defined emergency window.",
+                "whyImportant": "This treats some critical loads as dispatchable via self‑supply in scarcity, expanding the emergency playbook from supply‑side actions to targeted large‑load management.",
+                "evidence": [
+                  {
+                    "id": "sig-20260803-doe-202c-spp-backupgen-evidence-1",
+                    "title": "Order text and scope",
+                    "description": "Specifies SPP authority to dispatch certain units and to direct backup generation at data centers and other large loads as a last resort before/during EEA‑3; effective until Aug 3 at 11:59 p.m. CDT.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src-doe-2026orders"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-doe-2026orders",
+                    "title": "2026 DOE 202(c) Orders",
+                    "publisher": "U.S. Department of Energy (CESER)",
+                    "publishedAt": "2026-07-26",
+                    "url": "https://www.energy.gov/ceser/2026-doe-202c-orders",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-20260803-doe-202c-spp-backupgen-signal-2",
+                "label": "S2",
+                "title": "Weather stress prompts advisories; emergency order accompanies tightened conditions",
+                "body": "Coverage indicates weather‑related advisories in multiple regions during the period when the emergency order was issued.",
+                "whyImportant": "Reinforces that system stress from heat can coincide with rapidly rising large loads, necessitating additional tools for reliability.",
+                "evidence": [
+                  {
+                    "id": "sig-20260803-doe-202c-spp-backupgen-evidence-2",
+                    "title": "Report of advisories and emergency action",
+                    "description": "Notes DOE issuance of an emergency order as SPP and MISO extended weather‑related grid advisories.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src-spglobal-spp-heat"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-spglobal-spp-heat",
+                    "title": "DOE issues emergency order as SPP, MISO extend weather-related grid advisories",
+                    "publisher": "S&P Global Commodity Insights",
+                    "publishedAt": "2026-07-27",
+                    "url": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/072726-doe-issues-emergency-order-as-spp-miso-extend-weather-related-grid-advisories",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "corroborating source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-20260803-doe-202c-spp-backupgen-signal-3",
+                "label": "S3",
+                "title": "DOE earlier moved to secure the grid amid hot weather",
+                "body": "Days before the SPP order, DOE highlighted actions to bolster reliability during a heat period.",
+                "whyImportant": "Signals a proactive federal stance on reliability during extreme weather, setting context for subsequent emergency authority in SPP.",
+                "evidence": [
+                  {
+                    "id": "sig-20260803-doe-202c-spp-backupgen-evidence-3",
+                    "title": "Hot‑weather reliability posture",
+                    "description": "Describes steps taken to secure the grid amid a period of hot weather.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src-doe-spp-july20"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-doe-spp-july20",
+                    "title": "Energy Secretary Secures Grid Amid Period of Hot Weather",
+                    "publisher": "U.S. Department of Energy",
+                    "publishedAt": "2026-07-20",
+                    "url": "https://www.energy.gov/articles/energy-secretary-secures-grid-amid-period-hot-weather",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "context source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-20260803-doe-202c-spp-backupgen-signal-4",
+                "label": "S4",
+                "title": "Regulators push broader coordination on reliability",
+                "body": "A separate directive requires Western grid operators to produce a joint report on coordination.",
+                "whyImportant": "Shows a parallel emphasis on structural reliability improvements beyond a single region, complementing emergency tools.",
+                "evidence": [
+                  {
+                    "id": "sig-20260803-doe-202c-spp-backupgen-evidence-4",
+                    "title": "Coordination directive",
+                    "description": "Orders Western grid operators to deliver a joint report on grid coordination.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src-ferc-west-grid"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-ferc-west-grid",
+                    "title": "FERC Orders Western Grid Operators to Deliver Joint Report on Grid Coordination",
+                    "publisher": "Federal Energy Regulatory Commission",
+                    "publishedAt": "2026-07-16",
+                    "url": "https://www.ferc.gov/news-events/news/ferc-orders-western-grid-operators-deliver-joint-report-grid-coordination",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "Structural shift, made explicit",
+            "before": "In SPP, emergency playbooks focused on dispatching generation and other supply‑side measures; directing data‑center backup generation was not explicitly formalized at the federal order level.",
+            "shift": "A time‑bound federal order now authorizes SPP, as a last resort before/during EEA‑3, to direct data centers and other large loads to run on backup generation.",
+            "now": "During the order’s effective window, critical facilities with on‑site generation can be treated as dispatchable via self‑supply under direction, alongside specified unit dispatch.",
+            "conclusion": "Reliable power access is not just a planning assumption—it is an operational constraint and policy lever that can shape where and how AI and industrial capacity scale."
+          },
+          "insight": {
+            "title": "Backup power becomes part of the reliability stack",
+            "formula": "In emergencies: data‑center backups → directed self‑supply → preserved grid stability",
+            "explanation": "This order frames some large loads as conditionally dispatchable via their own generation. It nudges AI and industrial siting toward regions that can guarantee reliability—even when it requires temporary islanding."
+          },
+          "observe": {
+            "title": "Observe next",
+            "items": [
+              {
+                "label": "O1",
+                "prompt": "Did SPP actually direct any data centers or other large loads to operate on backup generation during the order window?",
+                "meta": "Test via SPP post‑event reports or public summaries."
+              },
+              {
+                "label": "O2",
+                "prompt": "Were EEA‑3 or near‑EEA‑3 conditions declared in SPP while the order was in effect?",
+                "meta": "Confirms the trigger context for last‑resort actions."
+              },
+              {
+                "label": "O3",
+                "prompt": "Do other regions receive 202(c) orders with explicit data‑center backup‑generation direction?",
+                "meta": "Indicates whether this approach generalizes beyond SPP."
+              },
+              {
+                "label": "O4",
+                "prompt": "Do state or local agencies provide temporary compliance guidance affecting backup‑generator runtime during scarcity?",
+                "meta": "Reveals how environmental and reliability policies interact under stress."
+              }
+            ],
+            "ending": "If emergency orders normalize backup self‑supply for critical loads, reliability planning and AI infrastructure siting will increasingly converge."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "能源正在成为战略产能",
+            "secondaryEyebrow": "紧急权限重塑大型负荷的运行方式",
+            "title": "美国能源部将202(c)紧急授权扩展至SPP并明确可指令数据中心启用后备电源（至8月3日有效）",
+            "summary": "一项新的联邦命令允许SPP在极端短缺下，作为“最后手段”，在进入或处于EEA‑3时指令数据中心等大型负荷启用后备发电。随着高温与AI用电上升挤压电网，将关键设施从主网临时“移出”成为可用工具，也表明可靠电力正在塑造数字化增长。"
+          },
+          "question": {
+            "lead": "可靠性杠杆正在向负荷侧移动。",
+            "title": "把数据中心转入自备电的正式权限，会否成为常态化的保供工具，并进而约束AI扩张的选址？",
+            "footnote": "2026年7月26日发布的202‑26‑37号紧急命令授权SPP在进入或处于EEA‑3前，作为“最后手段”，可指令数据中心等大型负荷启用后备发电；该命令有效至2026年8月3日（周一）晚11:59（中部）。"
+          },
+          "signals": {
+            "title": "正在发生的变化",
+            "sourceNote": "以下为本次更新所依据的要点与原始文件。",
+            "items": [
+              {
+                "id": "sig-20260803-doe-202c-spp-backupgen-signal-1",
+                "label": "S1",
+                "title": "DOE命令赋予SPP在EEA‑3条件下指令数据中心后备发电的权力",
+                "body": "该命令明确，在进入或处于EEA‑3时，除可调度特定机组外，还可作为“最后手段”指令数据中心等大型负荷启用后备发电，且设定了紧急生效时段。",
+                "whyImportant": "这使部分关键负荷在短缺中可通过自备电“可调度化”，将应急工具箱从单纯供给侧扩展到针对性的大负荷管理。",
+                "evidence": [
+                  {
+                    "id": "sig-20260803-doe-202c-spp-backupgen-evidence-1",
+                    "title": "命令文本与范围",
+                    "description": "明确授权SPP调度特定机组，并在进入或处于EEA‑3前作为“最后手段”指令数据中心等大型负荷启用后备发电；有效至8月3日23:59（中部）。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src-doe-2026orders"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-doe-2026orders",
+                    "title": "2026 DOE 202(c) Orders",
+                    "publisher": "U.S. Department of Energy (CESER)",
+                    "publishedAt": "2026-07-26",
+                    "url": "https://www.energy.gov/ceser/2026-doe-202c-orders",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-20260803-doe-202c-spp-backupgen-signal-2",
+                "label": "S2",
+                "title": "天气压力促使发布运行提示；紧急命令与趋紧条件同步出现",
+                "body": "行业报道显示，在紧急命令发布期，多个区域出现与天气相关的电网提示。",
+                "whyImportant": "表明高温导致的系统压力与快速增长的大型负荷可能叠加，需要更多可靠性工具。",
+                "evidence": [
+                  {
+                    "id": "sig-20260803-doe-202c-spp-backupgen-evidence-2",
+                    "title": "运行提示与紧急行动",
+                    "description": "指出在SPP与MISO延长与天气相关的电网提示之际，DOE发布了紧急命令。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src-spglobal-spp-heat"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-spglobal-spp-heat",
+                    "title": "DOE issues emergency order as SPP, MISO extend weather-related grid advisories",
+                    "publisher": "S&P Global Commodity Insights",
+                    "publishedAt": "2026-07-27",
+                    "url": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/072726-doe-issues-emergency-order-as-spp-miso-extend-weather-related-grid-advisories",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "corroborating source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-20260803-doe-202c-spp-backupgen-signal-3",
+                "label": "S3",
+                "title": "能源部此前已在高温期采取保供行动",
+                "body": "在SPP命令之前数日，能源部强调在高温时段采取措施以增强可靠性。",
+                "whyImportant": "显示在极端天气下的联邦保供前置态势，为随后在SPP发布的紧急权限提供了背景。",
+                "evidence": [
+                  {
+                    "id": "sig-20260803-doe-202c-spp-backupgen-evidence-3",
+                    "title": "高温期的可靠性举措",
+                    "description": "介绍在高温时段为保障电网安全采取的措施。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src-doe-spp-july20"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-doe-spp-july20",
+                    "title": "Energy Secretary Secures Grid Amid Period of Hot Weather",
+                    "publisher": "U.S. Department of Energy",
+                    "publishedAt": "2026-07-20",
+                    "url": "https://www.energy.gov/articles/energy-secretary-secures-grid-amid-period-hot-weather",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "context source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-20260803-doe-202c-spp-backupgen-signal-4",
+                "label": "S4",
+                "title": "监管层推动更广范围的协同保供",
+                "body": "一项独立指令要求西部电网运营方提交联合协同报告。",
+                "whyImportant": "表明除单一区域外，结构性可靠性改进也在推进，与应急工具形成互补。",
+                "evidence": [
+                  {
+                    "id": "sig-20260803-doe-202c-spp-backupgen-evidence-4",
+                    "title": "协同报告要求",
+                    "description": "要求西部电网运营方就电网协同提交联合报告。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src-ferc-west-grid"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-ferc-west-grid",
+                    "title": "FERC Orders Western Grid Operators to Deliver Joint Report on Grid Coordination",
+                    "publisher": "Federal Energy Regulatory Commission",
+                    "publishedAt": "2026-07-16",
+                    "url": "https://www.ferc.gov/news-events/news/ferc-orders-western-grid-operators-deliver-joint-report-grid-coordination",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "结构性转变被明确化",
+            "before": "在SPP，应急预案主要聚焦于机组调度等供给侧措施；在联邦命令层面，直接指令数据中心启用后备电并未被明确化。",
+            "shift": "一项有时限的联邦命令现在授权SPP在进入或处于EEA‑3前，作为“最后手段”指令数据中心等大型负荷以自备发电方式运行。",
+            "now": "在命令有效期间，具备现场发电能力的关键设施可在指令下通过自备电被视为“可调度”资源，与特定机组调度并行。",
+            "conclusion": "可靠电力不再只是规划前提，而是影响AI与工业扩张走向的运行性约束与政策杠杆。"
+          },
+          "insight": {
+            "title": "后备电源正在并入可靠性工具栈",
+            "formula": "在紧急状态：数据中心后备电 → 受指令自供 → 维护系统稳定",
+            "explanation": "该命令将部分大型负荷在特定条件下界定为可通过自备电“被调度”。这会促使AI与工业选址更偏向能够提供可靠性的区域，即便需要临时“脱网”。"
+          },
+          "observe": {
+            "title": "接下来观察什么",
+            "items": [
+              {
+                "label": "O1",
+                "prompt": "在命令有效期内，SPP是否实际指令数据中心或其他大型负荷启用后备发电？",
+                "meta": "可通过SPP事后事件报告或公开总结核验。"
+              },
+              {
+                "label": "O2",
+                "prompt": "命令有效期间，SPP是否出现EEA‑3或接近EEA‑3的情形？",
+                "meta": "验证触发“最后手段”动作的条件。"
+              },
+              {
+                "label": "O3",
+                "prompt": "其他区域是否出现同样明确涵盖数据中心后备电的202(c)命令？",
+                "meta": "判断该做法是否会在区域间扩散。"
+              },
+              {
+                "label": "O4",
+                "prompt": "地方监管机构是否在短缺期发布涉及后备发电机运行的临时合规指引？",
+                "meta": "观察环保规则与保供目标在压力情境下的衔接。"
+              }
+            ],
+            "ending": "若应急命令常态化地把关键负荷转入自备电，可靠性规划与AI基础设施选址将更深度耦合。"
+          }
+        },
+        "ja": {
+          "cover": {
+            "eyebrow": "エネルギーは戦略的キャパシティへ",
+            "secondaryEyebrow": "緊急権限が大口需要の運用を再定義",
+            "title": "DOEがSPPへ202(c)緊急命令を拡張—データセンターの非常用発電活用を明示（8月3日まで有効）",
+            "summary": "新たな連邦命令により、SPPは逼迫時の“最後の手段”として、EEA‑3の直前または発令中にデータセンター等の大口需要家へ非常用発電の稼働を指示できる。猛暑とAI需要が電力網を圧迫するなか、重要施設を一時的に系統から切り離すことが運用上の選択肢となり、信頼できる電力がデジタル成長を規定し始めていることを示す。"
+          },
+          "question": {
+            "lead": "信頼性レバーが負荷側に近づいた。",
+            "title": "データセンターの自家発“アイソレーション”の正式権限は、標準的な信頼性ツールとなり、AI拡張の立地制約になるのか？",
+            "footnote": "2026年7月26日発出の202‑26‑37号緊急命令は、SPPに対し特定電源の出力指令とともに、EEA‑3の直前または発令中の“最後の手段”としてデータセンター等の大口需要家に非常用発電の稼働を指示する権限を付与。期限は2026年8月3日（月）23:59（CDT）。"
+          },
+          "signals": {
+            "title": "今、何が動いているか",
+            "sourceNote": "本日の更新を支える主要な出来事と一次資料。",
+            "items": [
+              {
+                "id": "sig-20260803-doe-202c-spp-backupgen-signal-1",
+                "label": "S1",
+                "title": "DOE命令により、EEA‑3条件下でデータセンター非常用発電の指示が可能に",
+                "body": "命令は、特定電源の出力指令に加え、EEA‑3の直前または発令中の“最後の手段”としてデータセンター等の大口需要家に非常用発電の稼働を指示できることを明確化し、有効期間を定めている。",
+                "whyImportant": "逼迫時に一部の重要需要を自家発で“擬似的に可搬化”でき、供給側対策に加えて大口需要のターゲティッド管理が可能になる。",
+                "evidence": [
+                  {
+                    "id": "sig-20260803-doe-202c-spp-backupgen-evidence-1",
+                    "title": "命令の文言と適用範囲",
+                    "description": "SPPに対し、特定電源の出力指令と、EEA‑3前後の“最後の手段”としてデータセンター等の大口負荷に非常用発電を指示できる権限を付与。期限は8月3日23:59（CDT）。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src-doe-2026orders"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-doe-2026orders",
+                    "title": "2026 DOE 202(c) Orders",
+                    "publisher": "U.S. Department of Energy (CESER)",
+                    "publishedAt": "2026-07-26",
+                    "url": "https://www.energy.gov/ceser/2026-doe-202c-orders",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-20260803-doe-202c-spp-backupgen-signal-2",
+                "label": "S2",
+                "title": "気象起因の運用注意が継続し、緊急命令が同時期に発出",
+                "body": "報道では、命令の発出期に複数地域で気象関連の運用注意が続いたとされる。",
+                "whyImportant": "猛暑による系統ストレスと大型需要の増勢が重なり、追加の信頼性ツールが必要であることを裏づける。",
+                "evidence": [
+                  {
+                    "id": "sig-20260803-doe-202c-spp-backupgen-evidence-2",
+                    "title": "運用注意と緊急措置の報道",
+                    "description": "SPPとMISOが気象関連の運用注意を延長する中、DOEが緊急命令を発出したと伝える。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src-spglobal-spp-heat"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-spglobal-spp-heat",
+                    "title": "DOE issues emergency order as SPP, MISO extend weather-related grid advisories",
+                    "publisher": "S&P Global Commodity Insights",
+                    "publishedAt": "2026-07-27",
+                    "url": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/072726-doe-issues-emergency-order-as-spp-miso-extend-weather-related-grid-advisories",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "corroborating source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-20260803-doe-202c-spp-backupgen-signal-3",
+                "label": "S3",
+                "title": "高温期に先行してDOEが保安措置を表明",
+                "body": "SPP命令の数日前、DOEは高温時期の信頼性確保に向けた対応を示していた。",
+                "whyImportant": "極端気象下での連邦の先手対応を示し、SPPでの緊急権限付与の文脈を与える。",
+                "evidence": [
+                  {
+                    "id": "sig-20260803-doe-202c-spp-backupgen-evidence-3",
+                    "title": "高温期の信頼性強化アナウンス",
+                    "description": "高温の期間における電力網の確保措置を説明。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src-doe-spp-july20"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-doe-spp-july20",
+                    "title": "Energy Secretary Secures Grid Amid Period of Hot Weather",
+                    "publisher": "U.S. Department of Energy",
+                    "publishedAt": "2026-07-20",
+                    "url": "https://www.energy.gov/articles/energy-secretary-secures-grid-amid-period-hot-weather",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "context source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-20260803-doe-202c-spp-backupgen-signal-4",
+                "label": "S4",
+                "title": "広域協調を求める規制の動き",
+                "body": "別件として、西部の系統運用者に協調に関する共同報告の提出を求める指示が出ている。",
+                "whyImportant": "単一地域を超えた構造的な信頼性改善の重視を示し、緊急ツールを補完する潮流。",
+                "evidence": [
+                  {
+                    "id": "sig-20260803-doe-202c-spp-backupgen-evidence-4",
+                    "title": "協調報告の要請",
+                    "description": "西部系統運用者に対し、系統協調に関する共同報告の提出を命じる。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src-ferc-west-grid"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-ferc-west-grid",
+                    "title": "FERC Orders Western Grid Operators to Deliver Joint Report on Grid Coordination",
+                    "publisher": "Federal Energy Regulatory Commission",
+                    "publishedAt": "2026-07-16",
+                    "url": "https://www.ferc.gov/news-events/news/ferc-orders-western-grid-operators-deliver-joint-report-grid-coordination",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "構造転換の明示化",
+            "before": "SPPでは、従来の緊急対応は主に発電側の出力指令などに焦点があり、連邦命令のレベルでデータセンターの非常用発電を直接指示することは明示されていなかった。",
+            "shift": "有効期間を区切った連邦命令が、EEA‑3の直前または発令中の“最後の手段”として、SPPによる大口需要家（データセンター等）への自家発運転の指示を可能に。",
+            "now": "命令の有効期間中、オンサイト発電を持つ重要施設は、特定電源の出力指令と並ぶ“指示可能な自家発リソース”として扱われ得る。",
+            "conclusion": "信頼できる電力は単なる前提ではなく、AIや産業拡張の行方を左右する運用上の制約かつ政策レバーである。"
+          },
+          "insight": {
+            "title": "非常用発電は“信頼性の一部”になった",
+            "formula": "緊急時：データセンターの非常用発電 → 指示下の自給 → 系統安定の維持",
+            "explanation": "本命令は、一部の大口需要を条件付きで自家発によって“指示可能”と位置づける。たとえ一時的なアイソレーションが必要でも、信頼性を確保できる地域へとAI・産業の立地判断が傾く可能性が高い。"
+          },
+          "observe": {
+            "title": "これからの検証ポイント",
+            "items": [
+              {
+                "label": "O1",
+                "prompt": "有効期間中に、SPPは実際にデータセンターまたは他の大口負荷へ非常用発電の稼働を指示したか？",
+                "meta": "SPPの事後報告や公的サマリーで確認可能。"
+              },
+              {
+                "label": "O2",
+                "prompt": "命令の有効期間に、SPPでEEA‑3またはその手前の状況があったか？",
+                "meta": "“最後の手段”の発動条件の有無を検証。"
+              },
+              {
+                "label": "O3",
+                "prompt": "他地域でも、データセンター非常用発電の明示指示を含む202(c)命令が出るか？",
+                "meta": "手法の地域拡大を示す。"
+              },
+              {
+                "label": "O4",
+                "prompt": "逼迫時に、非常用発電機の運転に関する一時的なコンプライアンス指針が地方当局から示されるか？",
+                "meta": "環境規制と信頼性確保の接点を観察。"
+              }
+            ],
+            "ending": "もし緊急命令が重要需要の自家発“常用化”を後押しするなら、信頼性計画とAIインフラ立地は一層結び付く。"
+          }
+        }
+      }
+    },
     {
       "id": "global-2026-08-02-u-s-halts-planned-iran-strikes-after-gulf-intervention-oil-eases",
       "slug": "us-pauses-iran-strikes-oil-eases-2026-08-02",
@@ -2350,8 +2892,9 @@
       "status": "emerging",
       "confidence": "developing",
       "startedAt": "2026-07-18T00:00:00+09:00",
-      "updatedAt": "2026-08-03T01:10:42.108Z",
+      "updatedAt": "2026-08-03T05:15:45.000Z",
       "insightIds": [
+        "global-2026-08-03-doe-extends-202-c-emergency-authority-to-spp-with-explicit-data-center-b",
         "global-2026-08-02-u-s-halts-planned-iran-strikes-after-gulf-intervention-oil-eases"
       ],
       "tags": [
@@ -2377,6 +2920,34 @@
         }
       ],
       "evolution": [
+        {
+          "id": "evolution-sig-20260803-doe-202c-spp-backupgen",
+          "date": "2026-08-03",
+          "stage": "accelerating",
+          "impact": "updates",
+          "insightId": "global-2026-08-03-doe-extends-202-c-emergency-authority-to-spp-with-explicit-data-center-b",
+          "content": {
+            "en": {
+              "title": "Critical loads become conditionally dispatchable via self‑supply",
+              "description": "By explicitly authorizing SPP to direct data‑center backup generation in last‑resort scarcity, emergency operations now include targeted large‑load management—not just supply‑side dispatch.",
+              "implication": "AI and industrial build‑outs will increasingly price in the ability to island during stress, favoring locations with clear reliability pathways."
+            },
+            "zh": {
+              "title": "关键负荷在应急中被“条件性可调度化”",
+              "description": "明确授权SPP在“最后手段”场景下指令数据中心启用后备电，使应急操作从供给侧调度扩展到面向大型负荷的定向管理。",
+              "implication": "AI与工业投资将更重视在压力情境下的“可脱网”能力，选址更偏向可靠性路径清晰的地区。"
+            },
+            "ja": {
+              "title": "重要需要は自給で“条件付き可搬化”される",
+              "description": "SPPに対する非常用発電の指示権限が明示されたことで、緊急運用は供給側にとどまらず、大口需要のターゲティッド管理へ広がった。",
+              "implication": "AI・産業投資はストレス時のアイソレーション能力を織り込み、信頼性の道筋が明確な地域を選好しやすくなる。"
+            }
+          },
+          "previousStage": "accelerating",
+          "changeType": "acceleration",
+          "confidenceDelta": 1,
+          "evidenceIds": []
+        },
         {
           "id": "evolution-sig-20260802-us-pauses-iran-strikes-energy-risk",
           "date": "2026-08-02",
@@ -2489,7 +3060,7 @@
           "title": "Energy becomes strategic capacity",
           "summary": "Reliable electricity is becoming a direct constraint on digital and industrial expansion.",
           "thesis": "Energy access may increasingly determine where strategic industries can grow.",
-          "nextQuestion": "Do the stated parameters mature into concrete, monitorable steps that can sustain lower risk, or does the conflict snap back to a stop–start cycle?",
+          "nextQuestion": "Will emergency directives for data‑center backups evolve into standardized protocols across regions?",
           "domains": [
             "Energy",
             "Grid",
@@ -2500,17 +3071,16 @@
           "currentStageLabel": "Strategic convergence",
           "stageSummary": "Energy is shifting from an operating input into a strategic location and sovereignty constraint.",
           "observeNext": [
-            "Official statements confirming continued hold on new strikes",
-            "Public details of a framework or timeline",
-            "Incident reports near Gulf energy and shipping infrastructure",
-            "Stability in crude benchmarks and key freight markers"
+            "Any SPP after‑action notes on directed backup generation",
+            "Public indications of EEA‑3 during the order window",
+            "Region‑to‑region replication of explicit backup‑gen direction"
           ]
         },
         "zh": {
           "title": "能源成为战略容量",
           "summary": "稳定电力正在成为数字产业和实体工业扩张的直接约束。",
           "thesis": "能源获取能力可能越来越决定战略产业能够在哪里成长。",
-          "nextQuestion": "所称的“参数”能否转化为可监测的具体步骤以维持低风险，还是冲突会重新陷入“暂停—再打”的循环？",
+          "nextQuestion": "针对数据中心后备电的应急指令会否在各区域演变为标准化流程？",
           "domains": [
             "能源",
             "电网",
@@ -2521,17 +3091,16 @@
           "currentStageLabel": "战略汇合期",
           "stageSummary": "能源正在从运营投入转变为区位和主权层面的战略约束。",
           "observeNext": [
-            "官方是否继续确认“暂缓新打击”",
-            "是否公开框架或时间表的细节",
-            "海湾能源与航运设施附近的事件报告",
-            "原油基准与关键运价的稳定性"
+            "SPP是否发布涉及后备发电指令的复盘信息",
+            "命令期内是否出现EEA‑3的公开迹象",
+            "其他区域是否复制“明确指令后备电”的做法"
           ]
         },
         "ja": {
           "title": "エネルギーが戦略的供給力になる",
           "summary": "安定した電力が、デジタル産業と製造業の拡大を直接制約し始めている。",
           "thesis": "エネルギーへのアクセスが、戦略産業の成長地域を決める可能性が高まっている。",
-          "nextQuestion": "言及されたパラメーターは、低リスクを維持できる具体的で監視可能な手順に成熟するのか、それとも紛争は“停止→再開”に戻るのか？",
+          "nextQuestion": "データセンター非常用発電の緊急指示は、地域横断の標準プロトコルへ発展するか？",
           "domains": [
             "エネルギー",
             "電力網",
@@ -2542,17 +3111,17 @@
           "currentStageLabel": "戦略的収束期",
           "stageSummary": "エネルギーは運営投入から、立地と主権の戦略制約へ移行している。",
           "observeNext": [
-            "新規攻撃の見送り継続に関する公式発言",
-            "枠組みやタイムラインの公表",
-            "湾岸のエネルギー・航行インフラ周辺のインシデント報告",
-            "原油指標や主要運賃指標の安定性"
+            "SPPの事後報告における非常用発電指示の有無",
+            "命令期間中のEEA‑3発令の有無",
+            "“非常用発電の明示指示”の地域間での横展開"
           ]
         }
       },
       "currentStage": "accelerating",
       "stageChangedAt": "2026-07-31T10:00:00+09:00",
       "supportingInsightIds": [
-        "global-2026-08-02-u-s-halts-planned-iran-strikes-after-gulf-intervention-oil-eases"
+        "global-2026-08-02-u-s-halts-planned-iran-strikes-after-gulf-intervention-oil-eases",
+        "global-2026-08-03-doe-extends-202-c-emergency-authority-to-spp-with-explicit-data-center-b"
       ],
       "contradictingInsightIds": [],
       "keyActors": [],
@@ -2563,10 +3132,9 @@
         "Geopolitics"
       ],
       "nextSignals": [
-        "Official statements confirming continued hold on new strikes",
-        "Public details of a framework or timeline",
-        "Incident reports near Gulf energy and shipping infrastructure",
-        "Stability in crude benchmarks and key freight markers"
+        "Any SPP after‑action notes on directed backup generation",
+        "Public indications of EEA‑3 during the order window",
+        "Region‑to‑region replication of explicit backup‑gen direction"
       ],
       "confidenceScore": 68
     },
@@ -2952,6 +3520,56 @@
     }
   ],
   "dailyStates": [
+    {
+      "id": "daily-2026-08-03",
+      "date": "2026-08-03",
+      "decidedAt": "2026-08-03T05:15:45.000Z",
+      "state": "update_living",
+      "insightId": "global-2026-08-03-doe-extends-202-c-emergency-authority-to-spp-with-explicit-data-center-b",
+      "processId": "process-energy-security",
+      "materialChangeScore": 48,
+      "evidenceStrength": 86,
+      "noveltyScore": 58,
+      "importanceScore": 74,
+      "candidateSignalIds": [
+        "sig-20260803-doe-202c-spp-backupgen"
+      ],
+      "content": {
+        "en": {
+          "label": "Update",
+          "decisionTitle": "Emergency authority now explicitly reaches data‑center backups in SPP",
+          "decisionSummary": "Time‑bound authority lets SPP direct critical loads to self‑supply in last‑resort scarcity, reinforcing reliability as a gating factor for digital growth.",
+          "thresholdReason": "Primary order text plus corroborating coverage meet our publication threshold.",
+          "observeNext": [
+            "Whether SPP issued any backup‑generation directives",
+            "If EEA‑3 conditions occurred during the window",
+            "If similar orders appear in other regions"
+          ]
+        },
+        "zh": {
+          "label": "更新",
+          "decisionTitle": "SPP范围内的紧急权限现已明确涵盖数据中心后备电",
+          "decisionSummary": "在极端短缺下、于限定时段内，SPP可指令关键负荷自备供电，进一步强化“可靠性即数字化增长门槛”。",
+          "thresholdReason": "命令原文与佐证报道共同满足发布门槛。",
+          "observeNext": [
+            "SPP是否发布过后备发电指令",
+            "有效期内是否出现EEA‑3情形",
+            "他区是否出现类似命令"
+          ]
+        },
+        "ja": {
+          "label": "更新",
+          "decisionTitle": "SPPでデータセンター非常用発電まで明示的に対象化",
+          "decisionSummary": "期間限定の権限により、逼迫の“最後の手段”として重要需要の自給指示が可能に。信頼性がデジタル成長のゲートであることを強化。",
+          "thresholdReason": "命令本文と補足報道により閾値を満たすと判断。",
+          "observeNext": [
+            "SPPが非常用発電の指示を実施したか",
+            "期間中にEEA‑3があったか",
+            "他地域で同様の命令が出るか"
+          ]
+        }
+      }
+    },
     {
       "id": "daily-2026-08-02",
       "date": "2026-08-02",
@@ -3440,6 +4058,676 @@
     }
   ],
   "writerDrafts": [
+    {
+      "id": "writer-sig-20260803-doe-202c-spp-backupgen-1785734145000",
+      "status": "approved",
+      "writtenAt": "2026-08-03T05:15:45.000Z",
+      "researchDraftId": "research-2026-08-03-1785733979272",
+      "candidateId": "sig-20260803-doe-202c-spp-backupgen",
+      "model": "gpt-5-2025-08-07",
+      "dailyState": "update_living",
+      "matchedProcessId": "process-energy-security",
+      "qualityChecks": {
+        "publishThresholdMet": true,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [],
+        "humanOverrideApplied": false
+      },
+      "insight": {
+        "id": "global-2026-08-03-doe-extends-202-c-emergency-authority-to-spp-with-explicit-data-center-b",
+        "slug": "doe-202c-spp-datacenter-backupgen-20260803",
+        "status": "update_living",
+        "processId": "process-energy-security",
+        "publishedAt": "2026-08-03T00:00:00.000Z",
+        "updatedAt": "2026-08-03T05:15:45.000Z",
+        "confidence": "verified",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "Energy becomes strategic capacity",
+              "secondaryEyebrow": "Emergency authority reframes large-load operations",
+              "title": "DOE extends 202(c) emergency authority to SPP with explicit data‑center backup‑gen direction, through Aug 3",
+              "summary": "A new federal order lets SPP, in last‑resort scarcity, direct data centers and other large loads to run on backup generation before or during an EEA‑3. As heat and AI demand stress the grid, shifting critical facilities off the bulk system becomes an operational tool—and a signal that reliable power now shapes digital growth."
+            },
+            "question": {
+              "lead": "A reliability lever just moved closer to the load.",
+              "title": "Will formal authority to island data centers on backup power become a standing reliability tool—and a siting constraint for AI expansion?",
+              "footnote": "Emergency Order No. 202‑26‑37, issued July 26, 2026, authorizes SPP to dispatch specified units and to direct backup generation at data centers and other large loads as a last resort before or during an EEA‑3, effective through 11:59 p.m. CDT on Monday, August 3, 2026."
+            },
+            "signals": {
+              "title": "What’s changing now",
+              "sourceNote": "Key developments and primary documents underlying today’s update.",
+              "items": [
+                {
+                  "id": "sig-20260803-doe-202c-spp-backupgen-signal-1",
+                  "label": "S1",
+                  "title": "DOE order empowers SPP to direct data‑center backup generation in EEA‑3 conditions",
+                  "body": "The order explicitly authorizes, as a last resort, directing backup generation at data centers and other large loads before or during an EEA‑3, alongside dispatch of specified units, within a defined emergency window.",
+                  "whyImportant": "This treats some critical loads as dispatchable via self‑supply in scarcity, expanding the emergency playbook from supply‑side actions to targeted large‑load management.",
+                  "evidence": [
+                    {
+                      "id": "sig-20260803-doe-202c-spp-backupgen-evidence-1",
+                      "title": "Order text and scope",
+                      "description": "Specifies SPP authority to dispatch certain units and to direct backup generation at data centers and other large loads as a last resort before/during EEA‑3; effective until Aug 3 at 11:59 p.m. CDT.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src-doe-2026orders"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-doe-2026orders",
+                      "title": "2026 DOE 202(c) Orders",
+                      "publisher": "U.S. Department of Energy (CESER)",
+                      "publishedAt": "2026-07-26",
+                      "url": "https://www.energy.gov/ceser/2026-doe-202c-orders",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-20260803-doe-202c-spp-backupgen-signal-2",
+                  "label": "S2",
+                  "title": "Weather stress prompts advisories; emergency order accompanies tightened conditions",
+                  "body": "Coverage indicates weather‑related advisories in multiple regions during the period when the emergency order was issued.",
+                  "whyImportant": "Reinforces that system stress from heat can coincide with rapidly rising large loads, necessitating additional tools for reliability.",
+                  "evidence": [
+                    {
+                      "id": "sig-20260803-doe-202c-spp-backupgen-evidence-2",
+                      "title": "Report of advisories and emergency action",
+                      "description": "Notes DOE issuance of an emergency order as SPP and MISO extended weather‑related grid advisories.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src-spglobal-spp-heat"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-spglobal-spp-heat",
+                      "title": "DOE issues emergency order as SPP, MISO extend weather-related grid advisories",
+                      "publisher": "S&P Global Commodity Insights",
+                      "publishedAt": "2026-07-27",
+                      "url": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/072726-doe-issues-emergency-order-as-spp-miso-extend-weather-related-grid-advisories",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "corroborating source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-20260803-doe-202c-spp-backupgen-signal-3",
+                  "label": "S3",
+                  "title": "DOE earlier moved to secure the grid amid hot weather",
+                  "body": "Days before the SPP order, DOE highlighted actions to bolster reliability during a heat period.",
+                  "whyImportant": "Signals a proactive federal stance on reliability during extreme weather, setting context for subsequent emergency authority in SPP.",
+                  "evidence": [
+                    {
+                      "id": "sig-20260803-doe-202c-spp-backupgen-evidence-3",
+                      "title": "Hot‑weather reliability posture",
+                      "description": "Describes steps taken to secure the grid amid a period of hot weather.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src-doe-spp-july20"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-doe-spp-july20",
+                      "title": "Energy Secretary Secures Grid Amid Period of Hot Weather",
+                      "publisher": "U.S. Department of Energy",
+                      "publishedAt": "2026-07-20",
+                      "url": "https://www.energy.gov/articles/energy-secretary-secures-grid-amid-period-hot-weather",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "context source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-20260803-doe-202c-spp-backupgen-signal-4",
+                  "label": "S4",
+                  "title": "Regulators push broader coordination on reliability",
+                  "body": "A separate directive requires Western grid operators to produce a joint report on coordination.",
+                  "whyImportant": "Shows a parallel emphasis on structural reliability improvements beyond a single region, complementing emergency tools.",
+                  "evidence": [
+                    {
+                      "id": "sig-20260803-doe-202c-spp-backupgen-evidence-4",
+                      "title": "Coordination directive",
+                      "description": "Orders Western grid operators to deliver a joint report on grid coordination.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src-ferc-west-grid"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-ferc-west-grid",
+                      "title": "FERC Orders Western Grid Operators to Deliver Joint Report on Grid Coordination",
+                      "publisher": "Federal Energy Regulatory Commission",
+                      "publishedAt": "2026-07-16",
+                      "url": "https://www.ferc.gov/news-events/news/ferc-orders-western-grid-operators-deliver-joint-report-grid-coordination",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "context source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "Structural shift, made explicit",
+              "before": "In SPP, emergency playbooks focused on dispatching generation and other supply‑side measures; directing data‑center backup generation was not explicitly formalized at the federal order level.",
+              "shift": "A time‑bound federal order now authorizes SPP, as a last resort before/during EEA‑3, to direct data centers and other large loads to run on backup generation.",
+              "now": "During the order’s effective window, critical facilities with on‑site generation can be treated as dispatchable via self‑supply under direction, alongside specified unit dispatch.",
+              "conclusion": "Reliable power access is not just a planning assumption—it is an operational constraint and policy lever that can shape where and how AI and industrial capacity scale."
+            },
+            "insight": {
+              "title": "Backup power becomes part of the reliability stack",
+              "formula": "In emergencies: data‑center backups → directed self‑supply → preserved grid stability",
+              "explanation": "This order frames some large loads as conditionally dispatchable via their own generation. It nudges AI and industrial siting toward regions that can guarantee reliability—even when it requires temporary islanding."
+            },
+            "observe": {
+              "title": "Observe next",
+              "items": [
+                {
+                  "label": "O1",
+                  "prompt": "Did SPP actually direct any data centers or other large loads to operate on backup generation during the order window?",
+                  "meta": "Test via SPP post‑event reports or public summaries."
+                },
+                {
+                  "label": "O2",
+                  "prompt": "Were EEA‑3 or near‑EEA‑3 conditions declared in SPP while the order was in effect?",
+                  "meta": "Confirms the trigger context for last‑resort actions."
+                },
+                {
+                  "label": "O3",
+                  "prompt": "Do other regions receive 202(c) orders with explicit data‑center backup‑generation direction?",
+                  "meta": "Indicates whether this approach generalizes beyond SPP."
+                },
+                {
+                  "label": "O4",
+                  "prompt": "Do state or local agencies provide temporary compliance guidance affecting backup‑generator runtime during scarcity?",
+                  "meta": "Reveals how environmental and reliability policies interact under stress."
+                }
+              ],
+              "ending": "If emergency orders normalize backup self‑supply for critical loads, reliability planning and AI infrastructure siting will increasingly converge."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "能源正在成为战略产能",
+              "secondaryEyebrow": "紧急权限重塑大型负荷的运行方式",
+              "title": "美国能源部将202(c)紧急授权扩展至SPP并明确可指令数据中心启用后备电源（至8月3日有效）",
+              "summary": "一项新的联邦命令允许SPP在极端短缺下，作为“最后手段”，在进入或处于EEA‑3时指令数据中心等大型负荷启用后备发电。随着高温与AI用电上升挤压电网，将关键设施从主网临时“移出”成为可用工具，也表明可靠电力正在塑造数字化增长。"
+            },
+            "question": {
+              "lead": "可靠性杠杆正在向负荷侧移动。",
+              "title": "把数据中心转入自备电的正式权限，会否成为常态化的保供工具，并进而约束AI扩张的选址？",
+              "footnote": "2026年7月26日发布的202‑26‑37号紧急命令授权SPP在进入或处于EEA‑3前，作为“最后手段”，可指令数据中心等大型负荷启用后备发电；该命令有效至2026年8月3日（周一）晚11:59（中部）。"
+            },
+            "signals": {
+              "title": "正在发生的变化",
+              "sourceNote": "以下为本次更新所依据的要点与原始文件。",
+              "items": [
+                {
+                  "id": "sig-20260803-doe-202c-spp-backupgen-signal-1",
+                  "label": "S1",
+                  "title": "DOE命令赋予SPP在EEA‑3条件下指令数据中心后备发电的权力",
+                  "body": "该命令明确，在进入或处于EEA‑3时，除可调度特定机组外，还可作为“最后手段”指令数据中心等大型负荷启用后备发电，且设定了紧急生效时段。",
+                  "whyImportant": "这使部分关键负荷在短缺中可通过自备电“可调度化”，将应急工具箱从单纯供给侧扩展到针对性的大负荷管理。",
+                  "evidence": [
+                    {
+                      "id": "sig-20260803-doe-202c-spp-backupgen-evidence-1",
+                      "title": "命令文本与范围",
+                      "description": "明确授权SPP调度特定机组，并在进入或处于EEA‑3前作为“最后手段”指令数据中心等大型负荷启用后备发电；有效至8月3日23:59（中部）。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src-doe-2026orders"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-doe-2026orders",
+                      "title": "2026 DOE 202(c) Orders",
+                      "publisher": "U.S. Department of Energy (CESER)",
+                      "publishedAt": "2026-07-26",
+                      "url": "https://www.energy.gov/ceser/2026-doe-202c-orders",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-20260803-doe-202c-spp-backupgen-signal-2",
+                  "label": "S2",
+                  "title": "天气压力促使发布运行提示；紧急命令与趋紧条件同步出现",
+                  "body": "行业报道显示，在紧急命令发布期，多个区域出现与天气相关的电网提示。",
+                  "whyImportant": "表明高温导致的系统压力与快速增长的大型负荷可能叠加，需要更多可靠性工具。",
+                  "evidence": [
+                    {
+                      "id": "sig-20260803-doe-202c-spp-backupgen-evidence-2",
+                      "title": "运行提示与紧急行动",
+                      "description": "指出在SPP与MISO延长与天气相关的电网提示之际，DOE发布了紧急命令。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src-spglobal-spp-heat"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-spglobal-spp-heat",
+                      "title": "DOE issues emergency order as SPP, MISO extend weather-related grid advisories",
+                      "publisher": "S&P Global Commodity Insights",
+                      "publishedAt": "2026-07-27",
+                      "url": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/072726-doe-issues-emergency-order-as-spp-miso-extend-weather-related-grid-advisories",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "corroborating source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-20260803-doe-202c-spp-backupgen-signal-3",
+                  "label": "S3",
+                  "title": "能源部此前已在高温期采取保供行动",
+                  "body": "在SPP命令之前数日，能源部强调在高温时段采取措施以增强可靠性。",
+                  "whyImportant": "显示在极端天气下的联邦保供前置态势，为随后在SPP发布的紧急权限提供了背景。",
+                  "evidence": [
+                    {
+                      "id": "sig-20260803-doe-202c-spp-backupgen-evidence-3",
+                      "title": "高温期的可靠性举措",
+                      "description": "介绍在高温时段为保障电网安全采取的措施。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src-doe-spp-july20"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-doe-spp-july20",
+                      "title": "Energy Secretary Secures Grid Amid Period of Hot Weather",
+                      "publisher": "U.S. Department of Energy",
+                      "publishedAt": "2026-07-20",
+                      "url": "https://www.energy.gov/articles/energy-secretary-secures-grid-amid-period-hot-weather",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "context source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-20260803-doe-202c-spp-backupgen-signal-4",
+                  "label": "S4",
+                  "title": "监管层推动更广范围的协同保供",
+                  "body": "一项独立指令要求西部电网运营方提交联合协同报告。",
+                  "whyImportant": "表明除单一区域外，结构性可靠性改进也在推进，与应急工具形成互补。",
+                  "evidence": [
+                    {
+                      "id": "sig-20260803-doe-202c-spp-backupgen-evidence-4",
+                      "title": "协同报告要求",
+                      "description": "要求西部电网运营方就电网协同提交联合报告。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src-ferc-west-grid"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-ferc-west-grid",
+                      "title": "FERC Orders Western Grid Operators to Deliver Joint Report on Grid Coordination",
+                      "publisher": "Federal Energy Regulatory Commission",
+                      "publishedAt": "2026-07-16",
+                      "url": "https://www.ferc.gov/news-events/news/ferc-orders-western-grid-operators-deliver-joint-report-grid-coordination",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "context source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "结构性转变被明确化",
+              "before": "在SPP，应急预案主要聚焦于机组调度等供给侧措施；在联邦命令层面，直接指令数据中心启用后备电并未被明确化。",
+              "shift": "一项有时限的联邦命令现在授权SPP在进入或处于EEA‑3前，作为“最后手段”指令数据中心等大型负荷以自备发电方式运行。",
+              "now": "在命令有效期间，具备现场发电能力的关键设施可在指令下通过自备电被视为“可调度”资源，与特定机组调度并行。",
+              "conclusion": "可靠电力不再只是规划前提，而是影响AI与工业扩张走向的运行性约束与政策杠杆。"
+            },
+            "insight": {
+              "title": "后备电源正在并入可靠性工具栈",
+              "formula": "在紧急状态：数据中心后备电 → 受指令自供 → 维护系统稳定",
+              "explanation": "该命令将部分大型负荷在特定条件下界定为可通过自备电“被调度”。这会促使AI与工业选址更偏向能够提供可靠性的区域，即便需要临时“脱网”。"
+            },
+            "observe": {
+              "title": "接下来观察什么",
+              "items": [
+                {
+                  "label": "O1",
+                  "prompt": "在命令有效期内，SPP是否实际指令数据中心或其他大型负荷启用后备发电？",
+                  "meta": "可通过SPP事后事件报告或公开总结核验。"
+                },
+                {
+                  "label": "O2",
+                  "prompt": "命令有效期间，SPP是否出现EEA‑3或接近EEA‑3的情形？",
+                  "meta": "验证触发“最后手段”动作的条件。"
+                },
+                {
+                  "label": "O3",
+                  "prompt": "其他区域是否出现同样明确涵盖数据中心后备电的202(c)命令？",
+                  "meta": "判断该做法是否会在区域间扩散。"
+                },
+                {
+                  "label": "O4",
+                  "prompt": "地方监管机构是否在短缺期发布涉及后备发电机运行的临时合规指引？",
+                  "meta": "观察环保规则与保供目标在压力情境下的衔接。"
+                }
+              ],
+              "ending": "若应急命令常态化地把关键负荷转入自备电，可靠性规划与AI基础设施选址将更深度耦合。"
+            }
+          },
+          "ja": {
+            "cover": {
+              "eyebrow": "エネルギーは戦略的キャパシティへ",
+              "secondaryEyebrow": "緊急権限が大口需要の運用を再定義",
+              "title": "DOEがSPPへ202(c)緊急命令を拡張—データセンターの非常用発電活用を明示（8月3日まで有効）",
+              "summary": "新たな連邦命令により、SPPは逼迫時の“最後の手段”として、EEA‑3の直前または発令中にデータセンター等の大口需要家へ非常用発電の稼働を指示できる。猛暑とAI需要が電力網を圧迫するなか、重要施設を一時的に系統から切り離すことが運用上の選択肢となり、信頼できる電力がデジタル成長を規定し始めていることを示す。"
+            },
+            "question": {
+              "lead": "信頼性レバーが負荷側に近づいた。",
+              "title": "データセンターの自家発“アイソレーション”の正式権限は、標準的な信頼性ツールとなり、AI拡張の立地制約になるのか？",
+              "footnote": "2026年7月26日発出の202‑26‑37号緊急命令は、SPPに対し特定電源の出力指令とともに、EEA‑3の直前または発令中の“最後の手段”としてデータセンター等の大口需要家に非常用発電の稼働を指示する権限を付与。期限は2026年8月3日（月）23:59（CDT）。"
+            },
+            "signals": {
+              "title": "今、何が動いているか",
+              "sourceNote": "本日の更新を支える主要な出来事と一次資料。",
+              "items": [
+                {
+                  "id": "sig-20260803-doe-202c-spp-backupgen-signal-1",
+                  "label": "S1",
+                  "title": "DOE命令により、EEA‑3条件下でデータセンター非常用発電の指示が可能に",
+                  "body": "命令は、特定電源の出力指令に加え、EEA‑3の直前または発令中の“最後の手段”としてデータセンター等の大口需要家に非常用発電の稼働を指示できることを明確化し、有効期間を定めている。",
+                  "whyImportant": "逼迫時に一部の重要需要を自家発で“擬似的に可搬化”でき、供給側対策に加えて大口需要のターゲティッド管理が可能になる。",
+                  "evidence": [
+                    {
+                      "id": "sig-20260803-doe-202c-spp-backupgen-evidence-1",
+                      "title": "命令の文言と適用範囲",
+                      "description": "SPPに対し、特定電源の出力指令と、EEA‑3前後の“最後の手段”としてデータセンター等の大口負荷に非常用発電を指示できる権限を付与。期限は8月3日23:59（CDT）。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src-doe-2026orders"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-doe-2026orders",
+                      "title": "2026 DOE 202(c) Orders",
+                      "publisher": "U.S. Department of Energy (CESER)",
+                      "publishedAt": "2026-07-26",
+                      "url": "https://www.energy.gov/ceser/2026-doe-202c-orders",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-20260803-doe-202c-spp-backupgen-signal-2",
+                  "label": "S2",
+                  "title": "気象起因の運用注意が継続し、緊急命令が同時期に発出",
+                  "body": "報道では、命令の発出期に複数地域で気象関連の運用注意が続いたとされる。",
+                  "whyImportant": "猛暑による系統ストレスと大型需要の増勢が重なり、追加の信頼性ツールが必要であることを裏づける。",
+                  "evidence": [
+                    {
+                      "id": "sig-20260803-doe-202c-spp-backupgen-evidence-2",
+                      "title": "運用注意と緊急措置の報道",
+                      "description": "SPPとMISOが気象関連の運用注意を延長する中、DOEが緊急命令を発出したと伝える。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src-spglobal-spp-heat"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-spglobal-spp-heat",
+                      "title": "DOE issues emergency order as SPP, MISO extend weather-related grid advisories",
+                      "publisher": "S&P Global Commodity Insights",
+                      "publishedAt": "2026-07-27",
+                      "url": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/072726-doe-issues-emergency-order-as-spp-miso-extend-weather-related-grid-advisories",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "corroborating source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-20260803-doe-202c-spp-backupgen-signal-3",
+                  "label": "S3",
+                  "title": "高温期に先行してDOEが保安措置を表明",
+                  "body": "SPP命令の数日前、DOEは高温時期の信頼性確保に向けた対応を示していた。",
+                  "whyImportant": "極端気象下での連邦の先手対応を示し、SPPでの緊急権限付与の文脈を与える。",
+                  "evidence": [
+                    {
+                      "id": "sig-20260803-doe-202c-spp-backupgen-evidence-3",
+                      "title": "高温期の信頼性強化アナウンス",
+                      "description": "高温の期間における電力網の確保措置を説明。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src-doe-spp-july20"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-doe-spp-july20",
+                      "title": "Energy Secretary Secures Grid Amid Period of Hot Weather",
+                      "publisher": "U.S. Department of Energy",
+                      "publishedAt": "2026-07-20",
+                      "url": "https://www.energy.gov/articles/energy-secretary-secures-grid-amid-period-hot-weather",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "context source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-20260803-doe-202c-spp-backupgen-signal-4",
+                  "label": "S4",
+                  "title": "広域協調を求める規制の動き",
+                  "body": "別件として、西部の系統運用者に協調に関する共同報告の提出を求める指示が出ている。",
+                  "whyImportant": "単一地域を超えた構造的な信頼性改善の重視を示し、緊急ツールを補完する潮流。",
+                  "evidence": [
+                    {
+                      "id": "sig-20260803-doe-202c-spp-backupgen-evidence-4",
+                      "title": "協調報告の要請",
+                      "description": "西部系統運用者に対し、系統協調に関する共同報告の提出を命じる。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src-ferc-west-grid"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-ferc-west-grid",
+                      "title": "FERC Orders Western Grid Operators to Deliver Joint Report on Grid Coordination",
+                      "publisher": "Federal Energy Regulatory Commission",
+                      "publishedAt": "2026-07-16",
+                      "url": "https://www.ferc.gov/news-events/news/ferc-orders-western-grid-operators-deliver-joint-report-grid-coordination",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "context source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "構造転換の明示化",
+              "before": "SPPでは、従来の緊急対応は主に発電側の出力指令などに焦点があり、連邦命令のレベルでデータセンターの非常用発電を直接指示することは明示されていなかった。",
+              "shift": "有効期間を区切った連邦命令が、EEA‑3の直前または発令中の“最後の手段”として、SPPによる大口需要家（データセンター等）への自家発運転の指示を可能に。",
+              "now": "命令の有効期間中、オンサイト発電を持つ重要施設は、特定電源の出力指令と並ぶ“指示可能な自家発リソース”として扱われ得る。",
+              "conclusion": "信頼できる電力は単なる前提ではなく、AIや産業拡張の行方を左右する運用上の制約かつ政策レバーである。"
+            },
+            "insight": {
+              "title": "非常用発電は“信頼性の一部”になった",
+              "formula": "緊急時：データセンターの非常用発電 → 指示下の自給 → 系統安定の維持",
+              "explanation": "本命令は、一部の大口需要を条件付きで自家発によって“指示可能”と位置づける。たとえ一時的なアイソレーションが必要でも、信頼性を確保できる地域へとAI・産業の立地判断が傾く可能性が高い。"
+            },
+            "observe": {
+              "title": "これからの検証ポイント",
+              "items": [
+                {
+                  "label": "O1",
+                  "prompt": "有効期間中に、SPPは実際にデータセンターまたは他の大口負荷へ非常用発電の稼働を指示したか？",
+                  "meta": "SPPの事後報告や公的サマリーで確認可能。"
+                },
+                {
+                  "label": "O2",
+                  "prompt": "命令の有効期間に、SPPでEEA‑3またはその手前の状況があったか？",
+                  "meta": "“最後の手段”の発動条件の有無を検証。"
+                },
+                {
+                  "label": "O3",
+                  "prompt": "他地域でも、データセンター非常用発電の明示指示を含む202(c)命令が出るか？",
+                  "meta": "手法の地域拡大を示す。"
+                },
+                {
+                  "label": "O4",
+                  "prompt": "逼迫時に、非常用発電機の運転に関する一時的なコンプライアンス指針が地方当局から示されるか？",
+                  "meta": "環境規制と信頼性確保の接点を観察。"
+                }
+              ],
+              "ending": "もし緊急命令が重要需要の自家発“常用化”を後押しするなら、信頼性計画とAIインフラ立地は一層結び付く。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-2026-08-03",
+        "date": "2026-08-03",
+        "decidedAt": "2026-08-03T05:15:45.000Z",
+        "state": "update_living",
+        "insightId": "global-2026-08-03-doe-extends-202-c-emergency-authority-to-spp-with-explicit-data-center-b",
+        "processId": "process-energy-security",
+        "materialChangeScore": 48,
+        "evidenceStrength": 86,
+        "noveltyScore": 58,
+        "importanceScore": 74,
+        "candidateSignalIds": [
+          "sig-20260803-doe-202c-spp-backupgen"
+        ],
+        "content": {
+          "en": {
+            "label": "Update",
+            "decisionTitle": "Emergency authority now explicitly reaches data‑center backups in SPP",
+            "decisionSummary": "Time‑bound authority lets SPP direct critical loads to self‑supply in last‑resort scarcity, reinforcing reliability as a gating factor for digital growth.",
+            "thresholdReason": "Primary order text plus corroborating coverage meet our publication threshold.",
+            "observeNext": [
+              "Whether SPP issued any backup‑generation directives",
+              "If EEA‑3 conditions occurred during the window",
+              "If similar orders appear in other regions"
+            ]
+          },
+          "zh": {
+            "label": "更新",
+            "decisionTitle": "SPP范围内的紧急权限现已明确涵盖数据中心后备电",
+            "decisionSummary": "在极端短缺下、于限定时段内，SPP可指令关键负荷自备供电，进一步强化“可靠性即数字化增长门槛”。",
+            "thresholdReason": "命令原文与佐证报道共同满足发布门槛。",
+            "observeNext": [
+              "SPP是否发布过后备发电指令",
+              "有效期内是否出现EEA‑3情形",
+              "他区是否出现类似命令"
+            ]
+          },
+          "ja": {
+            "label": "更新",
+            "decisionTitle": "SPPでデータセンター非常用発電まで明示的に対象化",
+            "decisionSummary": "期間限定の権限により、逼迫の“最後の手段”として重要需要の自給指示が可能に。信頼性がデジタル成長のゲートであることを強化。",
+            "thresholdReason": "命令本文と補足報道により閾値を満たすと判断。",
+            "observeNext": [
+              "SPPが非常用発電の指示を実施したか",
+              "期間中にEEA‑3があったか",
+              "他地域で同様の命令が出るか"
+            ]
+          }
+        }
+      },
+      "processUpdate": {
+        "processId": "process-energy-security",
+        "updatedAt": "2026-08-03T05:15:45.000Z",
+        "appendInsightId": "global-2026-08-03-doe-extends-202-c-emergency-authority-to-spp-with-explicit-data-center-b",
+        "evolutionEvent": {
+          "id": "evolution-sig-20260803-doe-202c-spp-backupgen",
+          "date": "2026-08-03",
+          "stage": "accelerating",
+          "impact": "updates",
+          "insightId": "global-2026-08-03-doe-extends-202-c-emergency-authority-to-spp-with-explicit-data-center-b",
+          "content": {
+            "en": {
+              "title": "Critical loads become conditionally dispatchable via self‑supply",
+              "description": "By explicitly authorizing SPP to direct data‑center backup generation in last‑resort scarcity, emergency operations now include targeted large‑load management—not just supply‑side dispatch.",
+              "implication": "AI and industrial build‑outs will increasingly price in the ability to island during stress, favoring locations with clear reliability pathways."
+            },
+            "zh": {
+              "title": "关键负荷在应急中被“条件性可调度化”",
+              "description": "明确授权SPP在“最后手段”场景下指令数据中心启用后备电，使应急操作从供给侧调度扩展到面向大型负荷的定向管理。",
+              "implication": "AI与工业投资将更重视在压力情境下的“可脱网”能力，选址更偏向可靠性路径清晰的地区。"
+            },
+            "ja": {
+              "title": "重要需要は自給で“条件付き可搬化”される",
+              "description": "SPPに対する非常用発電の指示権限が明示されたことで、緊急運用は供給側にとどまらず、大口需要のターゲティッド管理へ広がった。",
+              "implication": "AI・産業投資はストレス時のアイソレーション能力を織り込み、信頼性の道筋が明確な地域を選好しやすくなる。"
+            }
+          }
+        },
+        "nextQuestion": {
+          "en": "Will emergency directives for data‑center backups evolve into standardized protocols across regions?",
+          "zh": "针对数据中心后备电的应急指令会否在各区域演变为标准化流程？",
+          "ja": "データセンター非常用発電の緊急指示は、地域横断の標準プロトコルへ発展するか？"
+        },
+        "observeNext": {
+          "en": [
+            "Any SPP after‑action notes on directed backup generation",
+            "Public indications of EEA‑3 during the order window",
+            "Region‑to‑region replication of explicit backup‑gen direction"
+          ],
+          "zh": [
+            "SPP是否发布涉及后备发电指令的复盘信息",
+            "命令期内是否出现EEA‑3的公开迹象",
+            "其他区域是否复制“明确指令后备电”的做法"
+          ],
+          "ja": [
+            "SPPの事後報告における非常用発電指示の有無",
+            "命令期間中のEEA‑3発令の有無",
+            "“非常用発電の明示指示”の地域間での横展開"
+          ]
+        }
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-08-03T05:16:19.753Z",
+        "override": false,
+        "overrideReason": null,
+        "originalPublishThresholdMet": true,
+        "originalDailyState": "update_living"
+      },
+      "approvedAt": "2026-08-03T05:16:19.753Z"
+    },
     {
       "id": "writer-sig-20260802-us-pauses-iran-strikes-energy-risk-1785719442108",
       "status": "approved",
@@ -5136,11 +6424,11 @@
   ],
   "processFoundation": {
     "version": 2,
-    "lastUpdatedAt": "2026-08-03T01:10:53.282Z",
+    "lastUpdatedAt": "2026-08-03T05:16:19.753Z",
     "lastMatchedProcessId": "process-energy-security"
   },
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-08-03T01:10:54.168Z"
+    "repairedAt": "2026-08-03T05:16:20.704Z"
   }
 }
