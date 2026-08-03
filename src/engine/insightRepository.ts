@@ -7,8 +7,35 @@ import type {
   LocalizedInsightEdition,
 } from '../types/insight';
 
+
+const PLACEHOLDER_TEXTS = new Set([
+  '无字段',
+  '沒有欄位',
+  '没有字段',
+  '未填写',
+  '未填寫',
+  '待补充',
+  '待補充',
+  '暂无内容',
+  '暫無內容',
+  'no field',
+  'no fields',
+  'missing field',
+  'not available',
+  'n/a',
+  '未入力',
+  '項目なし',
+  'フィールドなし',
+]);
+
+function isMeaningfulText(value: unknown): value is string {
+  if (typeof value !== 'string') return false;
+  const normalized = value.trim().toLowerCase();
+  return normalized.length > 0 && !PLACEHOLDER_TEXTS.has(normalized);
+}
+
 function text(value: unknown, fallback: string): string {
-  return typeof value === 'string' && value.trim()
+  return isMeaningfulText(value)
     ? value
     : fallback;
 }
@@ -91,17 +118,18 @@ function mergeInsightContent(
 function isRenderableInsight(raw: LocalizedInsightEdition): boolean {
   const { content } = mergeInsightContent(raw, 'en');
   return Boolean(
-    content.cover.title &&
-      content.cover.summary &&
-      content.question.title &&
-      content.signals.title &&
+    isMeaningfulText(content.cover.title) &&
+      isMeaningfulText(content.cover.summary) &&
+      isMeaningfulText(content.question.title) &&
+      isMeaningfulText(content.signals.title) &&
       content.signals.items.length > 0 &&
-      content.pattern.title &&
-      content.pattern.before &&
-      content.pattern.shift &&
-      content.pattern.now &&
-      content.insight.title &&
-      content.observe.title &&
+      isMeaningfulText(content.pattern.title) &&
+      isMeaningfulText(content.pattern.before) &&
+      isMeaningfulText(content.pattern.shift) &&
+      isMeaningfulText(content.pattern.now) &&
+      isMeaningfulText(content.pattern.conclusion) &&
+      isMeaningfulText(content.insight.title) &&
+      isMeaningfulText(content.observe.title) &&
       content.observe.items.length > 0,
   );
 }
