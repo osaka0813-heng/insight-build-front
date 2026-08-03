@@ -1,8 +1,583 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T12:10:00+09:00",
-  "contentVersion": "build012.1-alpha-world-process-foundation",
+  "generatedAt": "2026-08-03T01:10:53.282Z",
+  "contentVersion": "publish-global-2026-08-02-u-s-halts-planned-iran-strikes-after-gulf-intervention-oil-eases-1785719454167",
   "insights": [
+    {
+      "id": "global-2026-08-02-u-s-halts-planned-iran-strikes-after-gulf-intervention-oil-eases",
+      "slug": "us-pauses-iran-strikes-oil-eases-2026-08-02",
+      "status": "update_living",
+      "processId": "process-energy-security",
+      "publishedAt": "2026-08-02T00:00:00.000Z",
+      "updatedAt": "2026-08-03T01:10:42.108Z",
+      "confidence": "developing",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "Energy Security Update",
+            "secondaryEyebrow": "Geopolitics • Energy • Macro",
+            "title": "U.S. halts planned Iran strikes after Gulf intervention; oil eases",
+            "summary": "A public pause on new U.S. strikes against Iran, following Gulf leaders’ parameters for a deal, briefly calmed oil and shipping risk. Relief is real—but fragile."
+          },
+          "question": {
+            "lead": "De-escalation headline, de-risking or just delay?",
+            "title": "Does the strike pause materially lower near-term disruption risk to Gulf energy flows and the Strait of Hormuz, or is the market simply repricing a short pause?",
+            "footnote": "Framed from same-day reports of a public pause and a subsequent oil pullback; headline conditions can reverse quickly."
+          },
+          "signals": {
+            "title": "Signals to separate what moved from what might last",
+            "sourceNote": "Drawn from same-day reporting and recent context in the allowed sources.",
+            "items": [
+              {
+                "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-1",
+                "label": "S1",
+                "title": "Public order to pause new U.S. strikes",
+                "body": "On August 2, a public instruction was issued to hold off on additional strikes against Iran after Gulf leaders said parameters for a deal to end the conflict were agreed.",
+                "whyImportant": "This lowers the immediate probability of military action near critical energy assets and routes.",
+                "evidence": [
+                  {
+                    "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-1",
+                    "title": "Pause ordered after parameters for a deal",
+                    "description": "A public directive to hold off on new strikes, linked to Gulf-mediated parameters for ending the conflict, was reported the same day.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src1",
+                      "src2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src1",
+                    "title": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war",
+                    "publisher": "AP News",
+                    "publishedAt": "2026-08-01T08:52:04Z",
+                    "url": "https://apnews.com/article/e61e88c14d8aca48c1c56368650baea5",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "src2",
+                    "title": "Trump cancels Iran attack, citing progress in negotiations",
+                    "publisher": "Axios",
+                    "publishedAt": "2026-08-02T03:40:30Z",
+                    "url": "https://www.axios.com/2026/08/02/trump-iran-attack-cancelled",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "corroborating source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-2",
+                "label": "S2",
+                "title": "Oil prices eased after the announcement",
+                "body": "Crude benchmarks fell following news of the pause.",
+                "whyImportant": "Markets repriced near-term supply and transport risk, signaling a temporary reduction in disruption premiums.",
+                "evidence": [
+                  {
+                    "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-2",
+                    "title": "Oil prices dropped after the hold order",
+                    "description": "Following the announcement to hold off on new strikes, oil prices pulled back.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src3"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src3",
+                    "title": "Oil prices drop after Trump orders US forces to hold off on new strikes against Iran",
+                    "publisher": "AP News",
+                    "publishedAt": "2026-08-02T23:02:13Z",
+                    "url": "https://apnews.com/article/194ab3d3130bb44de445cf3d05954beb",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "corroborating source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-3",
+                "label": "S3",
+                "title": "Gulf-led framework signals a de-escalation channel",
+                "body": "Regional leaders said they had agreed on parameters for a deal to end the conflict.",
+                "whyImportant": "Introduces a diplomatic path that could reduce attack risk, though its durability remains uncertain.",
+                "evidence": [
+                  {
+                    "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-3",
+                    "title": "Parameters for a deal cited by Gulf leaders",
+                    "description": "Reports noted statements that parameters for a deal to end the conflict were agreed.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src1",
+                    "title": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war",
+                    "publisher": "AP News",
+                    "publishedAt": "2026-08-01T08:52:04Z",
+                    "url": "https://apnews.com/article/e61e88c14d8aca48c1c56368650baea5",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-4",
+                "label": "C1",
+                "title": "Hormuz shipping remains structurally exposed",
+                "body": "Recent coverage highlighted vessels stranded and elevated risk around the Gulf during the conflict.",
+                "whyImportant": "Shows why even temporary pauses can move energy and freight costs: the chokepoint is sensitive to escalation signals.",
+                "evidence": [
+                  {
+                    "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-4",
+                    "title": "Context on vessels and Gulf risk during conflict",
+                    "description": "Background reporting described shipping disruptions and risk exposure in the Gulf and near the Strait of Hormuz.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "src4"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src4",
+                    "title": "Stranded at sea",
+                    "publisher": "The Week",
+                    "publishedAt": "2026-07-27T00:00:00Z",
+                    "url": "https://theweek.com/world-news/stranded-at-sea-iran-war-ships-persian-gulf",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "Temporary calm in a chokepoint-dependent system",
+            "before": "Stop–start escalations kept a disruption premium on Gulf energy and shipping as operators treated Hormuz as a live hazard.",
+            "shift": "A public halt to new U.S. strikes, tied to parameters for a deal, reduced the immediate likelihood of additional attacks.",
+            "now": "Oil benchmarks eased and perceived shipping risk tempered, suggesting a truce-like state with high reversal risk.",
+            "conclusion": "Energy-intensive capacity gains a short planning window of lower input volatility, but the system should be treated as provisionally stable and easily reversed."
+          },
+          "insight": {
+            "title": "Operating model shift: risk repriced, continuity conditional",
+            "formula": "Hormuz risk down → energy input volatility down → temporary headroom for compute and industry",
+            "explanation": "A publicly ordered pause and an immediate oil pullback indicate the acute disruption premium eased—for now. Given prior stop–start cycles, treat continuity as conditional, not secured by structure yet."
+          },
+          "observe": {
+            "title": "Observe Next: make it testable",
+            "items": [
+              {
+                "label": "A",
+                "prompt": "Do both sides maintain the hold on new strikes across multiple news cycles?",
+                "meta": "Track official briefings and credible incident reports for any new strikes or seizures."
+              },
+              {
+                "label": "B",
+                "prompt": "Is a concrete framework or timeline publicly described by Gulf mediators?",
+                "meta": "Look for statements outlining parameters, sequencing, or monitoring mechanisms."
+              },
+              {
+                "label": "C",
+                "prompt": "Do shippers and insurers adjust advisories for Hormuz transits?",
+                "meta": "Watch for changes in guidance, routing notes, or coverage language."
+              },
+              {
+                "label": "D",
+                "prompt": "Do crude benchmarks and key freight rates stabilize versus pre-pause levels?",
+                "meta": "Compare closes over the coming days to assess whether the repricing sustains."
+              }
+            ],
+            "ending": "If no new strikes emerge, a framework is articulated, and markets stay calmer, the temporary window for energy-dependent capacity likely persists; otherwise expect the disruption premium to return quickly."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "能源安全更新",
+            "secondaryEyebrow": "地缘政治 • 能源 • 宏观",
+            "title": "美国在海湾国家干预后暂停对伊朗的新一轮打击；油价回落",
+            "summary": "在海湾方称就“终战框架”达成共识后，美国公开叫停对伊朗的新打击，油价与航运风险短暂走弱。安慰是真实的，但依然脆弱。"
+          },
+          "question": {
+            "lead": "降温头条，是去风险还是延期？",
+            "title": "这次“暂停”是否实质性降低了海湾能源与霍尔木兹海峡的短期中断风险，还是市场只是在为短暂停顿重新定价？",
+            "footnote": "基于同日出现的公开“暂停”与随后油价回落；头条态势可能迅速反转。"
+          },
+          "signals": {
+            "title": "信号拆分：哪些在动，哪些能持续",
+            "sourceNote": "来自同日报道与允许来源的背景材料。",
+            "items": [
+              {
+                "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-1",
+                "label": "S1",
+                "title": "公开下令暂停对伊朗的新打击",
+                "body": "8月2日，在海湾领导人称已就结束冲突的“框架”达成共识后，出现公开指示，要求暂缓对伊朗的进一步打击。",
+                "whyImportant": "这降低了靠近关键能源资产与通道的即时军事行动概率。",
+                "evidence": [
+                  {
+                    "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-1",
+                    "title": "在“框架”之后下达暂停指令",
+                    "description": "同日有报道称，因与海湾斡旋相关的“终战参数”，新一轮打击被公开叫停。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src1",
+                      "src2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src1",
+                    "title": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war",
+                    "publisher": "AP News",
+                    "publishedAt": "2026-08-01T08:52:04Z",
+                    "url": "https://apnews.com/article/e61e88c14d8aca48c1c56368650baea5",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "src2",
+                    "title": "Trump cancels Iran attack, citing progress in negotiations",
+                    "publisher": "Axios",
+                    "publishedAt": "2026-08-02T03:40:30Z",
+                    "url": "https://www.axios.com/2026/08/02/trump-iran-attack-cancelled",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "corroborating source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-2",
+                "label": "S2",
+                "title": "消息公布后油价走低",
+                "body": "在“暂停”消息发布后，原油基准出现回落。",
+                "whyImportant": "市场对短期供应与运输风险重新定价，表明中断溢价阶段性下降。",
+                "evidence": [
+                  {
+                    "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-2",
+                    "title": "叫停新打击后油价下跌",
+                    "description": "在宣布暂缓新打击之后，油价出现回落。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src3"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src3",
+                    "title": "Oil prices drop after Trump orders US forces to hold off on new strikes against Iran",
+                    "publisher": "AP News",
+                    "publishedAt": "2026-08-02T23:02:13Z",
+                    "url": "https://apnews.com/article/194ab3d3130bb44de445cf3d05954beb",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "corroborating source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-3",
+                "label": "S3",
+                "title": "海湾主导的“框架”为降级提供渠道",
+                "body": "有地区领导人称已就结束冲突的参数达成一致。",
+                "whyImportant": "引入可能降低袭击风险的外交路径，但其持久性仍不确定。",
+                "evidence": [
+                  {
+                    "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-3",
+                    "title": "海湾方面提及“终战参数”",
+                    "description": "报道指出，相关表述称已就结束冲突的参数达成一致。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src1",
+                    "title": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war",
+                    "publisher": "AP News",
+                    "publishedAt": "2026-08-01T08:52:04Z",
+                    "url": "https://apnews.com/article/e61e88c14d8aca48c1c56368650baea5",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-4",
+                "label": "C1",
+                "title": "霍尔木兹航运结构性暴露仍在",
+                "body": "近期报道强调，冲突期间海湾周边船只受阻与风险升高。",
+                "whyImportant": "说明为何即便暂时性缓和也会影响能源与运价：这一要冲对升级信号高度敏感。",
+                "evidence": [
+                  {
+                    "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-4",
+                    "title": "关于船舶与海湾风险的背景",
+                    "description": "背景材料描述了冲突期间的航运扰动与在海湾及霍尔木兹附近的风险暴露。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "src4"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src4",
+                    "title": "Stranded at sea",
+                    "publisher": "The Week",
+                    "publishedAt": "2026-07-27T00:00:00Z",
+                    "url": "https://theweek.com/world-news/stranded-at-sea-iran-war-ships-persian-gulf",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "在依赖要冲的体系里，暂时性的平静",
+            "before": "“暂停—再打”的循环使海湾能源与航运长期带着中断溢价，运营方把霍尔木兹当作实时风险源。",
+            "shift": "与海湾方“终战参数”相关的公开叫停新打击，降低了短期内新增袭击的可能性。",
+            "now": "油价回落、航运担忧缓和，呈现类似“停火窗口”的状态，但反转风险仍高。",
+            "conclusion": "高耗能产能获得短暂的成本与波动缓释窗口，但应将其视为临时稳定、随时可被逆转。"
+          },
+          "insight": {
+            "title": "运行模型转变：风险被重定价，延续性取决于条件",
+            "formula": "霍尔木兹风险下降 → 能源输入波动下降 → 计算与工业获得短暂回旋空间",
+            "explanation": "公开叫停与油价即刻回落显示：急性中断溢价阶段性减弱。鉴于此前“暂停—再打”的经验，当前延续性仍是“有条件”的，而非结构性巩固。"
+          },
+          "observe": {
+            "title": "接下来观察：可验证的信号",
+            "items": [
+              {
+                "label": "A",
+                "prompt": "多轮新闻周期内，相关各方是否继续维持“暂缓新打击”？",
+                "meta": "跟踪官方通报与可信事故信息，留意新打击或扣押事件。"
+              },
+              {
+                "label": "B",
+                "prompt": "海湾斡旋方是否公开阐述更具体的框架或时间表？",
+                "meta": "关注对参数、步骤与监督机制的表述。"
+              },
+              {
+                "label": "C",
+                "prompt": "船东与保险是否调整霍尔木兹通行的提示？",
+                "meta": "留意通告、航线建议或承保条款的变化。"
+              },
+              {
+                "label": "D",
+                "prompt": "原油基准与关键运价是否相对“暂停”前更为平稳？",
+                "meta": "对比接下来数日的收盘，判断重定价能否维持。"
+              }
+            ],
+            "ending": "若“无新打击—框架有进展—市场更平稳”三项能同时保持，面向能源依赖型产能的短期窗口大概率延续；否则，中断溢价或迅速回归。"
+          }
+        },
+        "ja": {
+          "cover": {
+            "eyebrow": "エネルギー安全アップデート",
+            "secondaryEyebrow": "地政学 • エネルギー • マクロ",
+            "title": "湾岸諸国の仲介で米国が対イラン追加攻撃を一時停止、原油は軟化",
+            "summary": "湾岸の仲介で追加攻撃が公に見送られ、原油と航行リスクが一時的に落ち着いた。安堵は本物だが、脆弱だ。"
+          },
+          "question": {
+            "lead": "緊張緩和の見出しは、去リスクか延期か？",
+            "title": "攻撃停止で、湾岸のエネルギー流とホルムズ海峡の短期途絶リスクは実質的に低下したのか、それとも市場は短い猶予を織り直しただけか？",
+            "footnote": "同日中の停止発表とそれに続く原油反落を前提にした設問。見出しは素早く反転し得る。"
+          },
+          "signals": {
+            "title": "シグナル：何が動き、何が続くか",
+            "sourceNote": "同日の報道と許可された背景情報に基づく。",
+            "items": [
+              {
+                "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-1",
+                "label": "S1",
+                "title": "新たな対イラン攻撃の一時停止を公に指示",
+                "body": "8月2日、湾岸指導者が終戦の枠組みの合意に言及した後、追加攻撃の見送りが公に指示された。",
+                "whyImportant": "重要なエネルギー資産と航路周辺での即時的な軍事行動の確率を引き下げる。",
+                "evidence": [
+                  {
+                    "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-1",
+                    "title": "枠組み合意の言及後に停止指示",
+                    "description": "湾岸の仲介に紐づく形で新規攻撃の停止が同日に報じられた。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src1",
+                      "src2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src1",
+                    "title": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war",
+                    "publisher": "AP News",
+                    "publishedAt": "2026-08-01T08:52:04Z",
+                    "url": "https://apnews.com/article/e61e88c14d8aca48c1c56368650baea5",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "src2",
+                    "title": "Trump cancels Iran attack, citing progress in negotiations",
+                    "publisher": "Axios",
+                    "publishedAt": "2026-08-02T03:40:30Z",
+                    "url": "https://www.axios.com/2026/08/02/trump-iran-attack-cancelled",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "corroborating source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-2",
+                "label": "S2",
+                "title": "発表後に原油価格が反落",
+                "body": "停止のニュースを受け、原油指標が下落した。",
+                "whyImportant": "短期の供給・輸送リスクを市場が再評価し、中断プレミアムが一時的に和らいだことを示す。",
+                "evidence": [
+                  {
+                    "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-2",
+                    "title": "見送り指示の後、原油が下落",
+                    "description": "新たな攻撃見送りの発表後、原油価格が反落した。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src3"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src3",
+                    "title": "Oil prices drop after Trump orders US forces to hold off on new strikes against Iran",
+                    "publisher": "AP News",
+                    "publishedAt": "2026-08-02T23:02:13Z",
+                    "url": "https://apnews.com/article/194ab3d3130bb44de445cf3d05954beb",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "corroborating source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-3",
+                "label": "S3",
+                "title": "湾岸主導の枠組みはデエスカレーションの経路",
+                "body": "地域の指導者は、戦闘終結のためのパラメーターに合意したと述べた。",
+                "whyImportant": "攻撃リスクを下げ得る外交的な道筋が生まれた一方、その持続性は不明。",
+                "evidence": [
+                  {
+                    "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-3",
+                    "title": "終結パラメーターへの合意に言及",
+                    "description": "戦闘終結のためのパラメーターに合意したとの声明が報じられた。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src1",
+                    "title": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war",
+                    "publisher": "AP News",
+                    "publishedAt": "2026-08-01T08:52:04Z",
+                    "url": "https://apnews.com/article/e61e88c14d8aca48c1c56368650baea5",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-4",
+                "label": "C1",
+                "title": "ホルムズの航行は構造的に脆弱",
+                "body": "最近の報道は、紛争下で湾岸周辺の船舶滞留やリスク上昇を取り上げた。",
+                "whyImportant": "なぜ一時的な緩和でもエネルギーと運賃に効くのかを示す。要衝はエスカレーションのサインに敏感だ。",
+                "evidence": [
+                  {
+                    "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-4",
+                    "title": "湾岸の船舶・リスクに関する背景",
+                    "description": "紛争期の航行混乱と、ホルムズ周辺でのリスク露出が説明されている。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "src4"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src4",
+                    "title": "Stranded at sea",
+                    "publisher": "The Week",
+                    "publishedAt": "2026-07-27T00:00:00Z",
+                    "url": "https://theweek.com/world-news/stranded-at-sea-iran-war-ships-persian-gulf",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "要衝依存の体系に訪れた一時的な静けさ",
+            "before": "“停止→再開”の循環が、湾岸のエネルギーと航行に中断プレミアムを乗せ続けていた。",
+            "shift": "湾岸の枠組み言及を背景に、新規攻撃の見送りが公に指示され、直近の追加攻撃の確率が下がった。",
+            "now": "原油が軟化し航行不安も和らいだが、状況は停戦的で反転リスクが高い。",
+            "conclusion": "エネルギー多消費の分野には短い安定の“息継ぎ”が生まれたが、これは仮の安定であり、容易に逆転し得ると見なすべきだ。"
+          },
+          "insight": {
+            "title": "運用モデルの転換：リスクは再評価、継続は条件付き",
+            "formula": "ホルムズのリスク低下 → エネルギー入力の変動低下 → 計算資源と産業に一時的な余裕",
+            "explanation": "公の停止指示と即時の原油反落は、急性の中断プレミアムが当面和らいだことを示す。一方、過去の“停止→再開”から、継続性はまだ構造的に担保されていない。"
+          },
+          "observe": {
+            "title": "次に観察すること：検証可能な項目",
+            "items": [
+              {
+                "label": "A",
+                "prompt": "複数のニュース周期にわたり、新規攻撃の見送りは維持されるか？",
+                "meta": "公式ブリーフィングと信頼できるインシデント報告を追う。"
+              },
+              {
+                "label": "B",
+                "prompt": "湾岸の仲介者から、より具体的な枠組みやタイムラインが示されるか？",
+                "meta": "パラメーター、手順、監視の仕組みに関する声明を確認。"
+              },
+              {
+                "label": "C",
+                "prompt": "船社・保険はホルムズ通過に関する勧告を調整するか？",
+                "meta": "通達、迂回提案、補償条件の変化を注視。"
+              },
+              {
+                "label": "D",
+                "prompt": "原油指標や主要運賃は“停止前”と比べて安定するか？",
+                "meta": "今後数日の終値を比較し、再評価が持続するかを確認。"
+              }
+            ],
+            "ending": "新規攻撃がなく、枠組みの進展が見え、市場も落ち着く——この複数が同時に続けば、エネルギー依存分野の一時的な窓は持続しやすい。逆なら、中断プレミアムの再拡大を想定。"
+          }
+        }
+      }
+    },
     {
       "id": "global-2026-08-01-doe-taps-brookfield-for-paducah-ai-campus-nextera-to-build-2-gw-gas-2-6-",
       "slug": "doe-paducah-ai-campus-brookfield-nextera",
@@ -1775,8 +2350,10 @@
       "status": "emerging",
       "confidence": "developing",
       "startedAt": "2026-07-18T00:00:00+09:00",
-      "updatedAt": "2026-07-31T10:00:00+09:00",
-      "insightIds": [],
+      "updatedAt": "2026-08-03T01:10:42.108Z",
+      "insightIds": [
+        "global-2026-08-02-u-s-halts-planned-iran-strikes-after-gulf-intervention-oil-eases"
+      ],
       "tags": [
         "electricity",
         "grid",
@@ -1800,6 +2377,34 @@
         }
       ],
       "evolution": [
+        {
+          "id": "evolution-sig-20260802-us-pauses-iran-strikes-energy-risk",
+          "date": "2026-08-02",
+          "stage": "accelerating",
+          "impact": "updates",
+          "insightId": "global-2026-08-02-u-s-halts-planned-iran-strikes-after-gulf-intervention-oil-eases",
+          "content": {
+            "en": {
+              "title": "When Hormuz risk softens, compute breathes—briefly",
+              "description": "A public strike pause and an immediate oil pullback suggest acute disruption risk eased for now, reinforcing the link between secure energy flows and capacity planning.",
+              "implication": "Consider the relief tactical; structural exposure to Gulf chokepoints persists until formal, durable mechanisms are in place."
+            },
+            "zh": {
+              "title": "当霍尔木兹风险走软，算力与工业得以“短促换气”",
+              "description": "公开叫停与随之而来的油价回落，表明急性中断风险阶段性缓解，强化了“能源安全—产能规划”的联动。",
+              "implication": "将其视为战术性缓解；在更正式、可持续的机制落地前，对海湾要冲的结构性暴露依然存在。"
+            },
+            "ja": {
+              "title": "ホルムズのリスクが緩むと、計算と産業はひと息つける——ただし短い",
+              "description": "公の停止と即時の原油反落は、当面の途絶リスクの緩和を示し、エネルギーの安定と能力計画の結びつきを補強する。",
+              "implication": "安堵は戦術的なものに過ぎない。恒久的な仕組みが整うまでは、湾岸の要衝への構造的曝露は残る。"
+            }
+          },
+          "previousStage": "accelerating",
+          "changeType": "acceleration",
+          "confidenceDelta": 1,
+          "evidenceIds": []
+        },
         {
           "id": "energy-e1",
           "date": "2026-07-18T00:00:00+09:00",
@@ -1884,7 +2489,7 @@
           "title": "Energy becomes strategic capacity",
           "summary": "Reliable electricity is becoming a direct constraint on digital and industrial expansion.",
           "thesis": "Energy access may increasingly determine where strategic industries can grow.",
-          "nextQuestion": "Which regions can turn grid reliability into economic advantage?",
+          "nextQuestion": "Do the stated parameters mature into concrete, monitorable steps that can sustain lower risk, or does the conflict snap back to a stop–start cycle?",
           "domains": [
             "Energy",
             "Grid",
@@ -1895,16 +2500,17 @@
           "currentStageLabel": "Strategic convergence",
           "stageSummary": "Energy is shifting from an operating input into a strategic location and sovereignty constraint.",
           "observeNext": [
-            "New generation and grid approvals",
-            "Large-load connection queues",
-            "AI and industrial power contracts"
+            "Official statements confirming continued hold on new strikes",
+            "Public details of a framework or timeline",
+            "Incident reports near Gulf energy and shipping infrastructure",
+            "Stability in crude benchmarks and key freight markers"
           ]
         },
         "zh": {
           "title": "能源成为战略容量",
           "summary": "稳定电力正在成为数字产业和实体工业扩张的直接约束。",
           "thesis": "能源获取能力可能越来越决定战略产业能够在哪里成长。",
-          "nextQuestion": "哪些地区能把电网可靠性转化为经济优势？",
+          "nextQuestion": "所称的“参数”能否转化为可监测的具体步骤以维持低风险，还是冲突会重新陷入“暂停—再打”的循环？",
           "domains": [
             "能源",
             "电网",
@@ -1915,16 +2521,17 @@
           "currentStageLabel": "战略汇合期",
           "stageSummary": "能源正在从运营投入转变为区位和主权层面的战略约束。",
           "observeNext": [
-            "新增发电与电网审批",
-            "大型负荷接入排队",
-            "AI及工业长期电力合同"
+            "官方是否继续确认“暂缓新打击”",
+            "是否公开框架或时间表的细节",
+            "海湾能源与航运设施附近的事件报告",
+            "原油基准与关键运价的稳定性"
           ]
         },
         "ja": {
           "title": "エネルギーが戦略的供給力になる",
           "summary": "安定した電力が、デジタル産業と製造業の拡大を直接制約し始めている。",
           "thesis": "エネルギーへのアクセスが、戦略産業の成長地域を決める可能性が高まっている。",
-          "nextQuestion": "どの地域が送電網の信頼性を経済的優位へ変えられるのか。",
+          "nextQuestion": "言及されたパラメーターは、低リスクを維持できる具体的で監視可能な手順に成熟するのか、それとも紛争は“停止→再開”に戻るのか？",
           "domains": [
             "エネルギー",
             "電力網",
@@ -1935,15 +2542,18 @@
           "currentStageLabel": "戦略的収束期",
           "stageSummary": "エネルギーは運営投入から、立地と主権の戦略制約へ移行している。",
           "observeNext": [
-            "新規発電・送電網の承認",
-            "大型需要の接続待ち",
-            "AI・産業の長期電力契約"
+            "新規攻撃の見送り継続に関する公式発言",
+            "枠組みやタイムラインの公表",
+            "湾岸のエネルギー・航行インフラ周辺のインシデント報告",
+            "原油指標や主要運賃指標の安定性"
           ]
         }
       },
       "currentStage": "accelerating",
       "stageChangedAt": "2026-07-31T10:00:00+09:00",
-      "supportingInsightIds": [],
+      "supportingInsightIds": [
+        "global-2026-08-02-u-s-halts-planned-iran-strikes-after-gulf-intervention-oil-eases"
+      ],
       "contradictingInsightIds": [],
       "keyActors": [],
       "domains": [
@@ -1953,9 +2563,10 @@
         "Geopolitics"
       ],
       "nextSignals": [
-        "New generation and grid approvals",
-        "Large-load connection queues",
-        "AI and industrial power contracts"
+        "Official statements confirming continued hold on new strikes",
+        "Public details of a framework or timeline",
+        "Incident reports near Gulf energy and shipping infrastructure",
+        "Stability in crude benchmarks and key freight markers"
       ],
       "confidenceScore": 68
     },
@@ -2341,6 +2952,56 @@
     }
   ],
   "dailyStates": [
+    {
+      "id": "daily-2026-08-02",
+      "date": "2026-08-02",
+      "decidedAt": "2026-08-03T01:10:42.108Z",
+      "state": "update_living",
+      "insightId": "global-2026-08-02-u-s-halts-planned-iran-strikes-after-gulf-intervention-oil-eases",
+      "processId": "process-energy-security",
+      "materialChangeScore": 49,
+      "evidenceStrength": 72,
+      "noveltyScore": 84,
+      "importanceScore": 88,
+      "candidateSignalIds": [
+        "sig-20260802-us-pauses-iran-strikes-energy-risk"
+      ],
+      "content": {
+        "en": {
+          "label": "Update",
+          "decisionTitle": "Treat the relief as temporary",
+          "decisionSummary": "The event eases acute risk, but exposure to Gulf chokepoints remains. Our thesis on energy as strategic capacity stands.",
+          "thresholdReason": "Public pause and oil pullback observed; durability unproven.",
+          "observeNext": [
+            "Maintain hold on new strikes",
+            "Public articulation of a framework",
+            "Stability in crude benchmarks"
+          ]
+        },
+        "zh": {
+          "label": "更新",
+          "decisionTitle": "将这次缓解视为临时性",
+          "decisionSummary": "短期风险缓和，但对海湾要冲的暴露依旧。能源即战略能力的论断不变。",
+          "thresholdReason": "出现公开“暂停”和油价回落；持续性未证实。",
+          "observeNext": [
+            "是否维持“暂缓新打击”",
+            "是否公开更具体框架",
+            "原油基准是否更稳"
+          ]
+        },
+        "ja": {
+          "label": "アップデート",
+          "decisionTitle": "安堵は一時的とみなす",
+          "decisionSummary": "急性リスクは和らいだが、湾岸の要衝への構造的な曝露は続く。エネルギー＝戦略的能力という仮説は維持。",
+          "thresholdReason": "公の停止と原油反落を確認。持続性は未確認。",
+          "observeNext": [
+            "新規攻撃の見送りが継続するか",
+            "枠組みの具体化が示されるか",
+            "原油指標の安定性"
+          ]
+        }
+      }
+    },
     {
       "id": "daily-2026-08-01",
       "date": "2026-08-01",
@@ -2779,6 +3440,712 @@
     }
   ],
   "writerDrafts": [
+    {
+      "id": "writer-sig-20260802-us-pauses-iran-strikes-energy-risk-1785719442108",
+      "status": "approved",
+      "writtenAt": "2026-08-03T01:10:42.108Z",
+      "researchDraftId": "research-2026-08-03-1785719327250",
+      "candidateId": "sig-20260802-us-pauses-iran-strikes-energy-risk",
+      "model": "gpt-5-2025-08-07",
+      "dailyState": "update_living",
+      "matchedProcessId": "process-energy-security",
+      "qualityChecks": {
+        "publishThresholdMet": true,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [],
+        "humanOverrideApplied": false
+      },
+      "insight": {
+        "id": "global-2026-08-02-u-s-halts-planned-iran-strikes-after-gulf-intervention-oil-eases",
+        "slug": "us-pauses-iran-strikes-oil-eases-2026-08-02",
+        "status": "update_living",
+        "processId": "process-energy-security",
+        "publishedAt": "2026-08-02T00:00:00.000Z",
+        "updatedAt": "2026-08-03T01:10:42.108Z",
+        "confidence": "developing",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "Energy Security Update",
+              "secondaryEyebrow": "Geopolitics • Energy • Macro",
+              "title": "U.S. halts planned Iran strikes after Gulf intervention; oil eases",
+              "summary": "A public pause on new U.S. strikes against Iran, following Gulf leaders’ parameters for a deal, briefly calmed oil and shipping risk. Relief is real—but fragile."
+            },
+            "question": {
+              "lead": "De-escalation headline, de-risking or just delay?",
+              "title": "Does the strike pause materially lower near-term disruption risk to Gulf energy flows and the Strait of Hormuz, or is the market simply repricing a short pause?",
+              "footnote": "Framed from same-day reports of a public pause and a subsequent oil pullback; headline conditions can reverse quickly."
+            },
+            "signals": {
+              "title": "Signals to separate what moved from what might last",
+              "sourceNote": "Drawn from same-day reporting and recent context in the allowed sources.",
+              "items": [
+                {
+                  "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-1",
+                  "label": "S1",
+                  "title": "Public order to pause new U.S. strikes",
+                  "body": "On August 2, a public instruction was issued to hold off on additional strikes against Iran after Gulf leaders said parameters for a deal to end the conflict were agreed.",
+                  "whyImportant": "This lowers the immediate probability of military action near critical energy assets and routes.",
+                  "evidence": [
+                    {
+                      "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-1",
+                      "title": "Pause ordered after parameters for a deal",
+                      "description": "A public directive to hold off on new strikes, linked to Gulf-mediated parameters for ending the conflict, was reported the same day.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src1",
+                        "src2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src1",
+                      "title": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war",
+                      "publisher": "AP News",
+                      "publishedAt": "2026-08-01T08:52:04Z",
+                      "url": "https://apnews.com/article/e61e88c14d8aca48c1c56368650baea5",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "src2",
+                      "title": "Trump cancels Iran attack, citing progress in negotiations",
+                      "publisher": "Axios",
+                      "publishedAt": "2026-08-02T03:40:30Z",
+                      "url": "https://www.axios.com/2026/08/02/trump-iran-attack-cancelled",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "corroborating source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-2",
+                  "label": "S2",
+                  "title": "Oil prices eased after the announcement",
+                  "body": "Crude benchmarks fell following news of the pause.",
+                  "whyImportant": "Markets repriced near-term supply and transport risk, signaling a temporary reduction in disruption premiums.",
+                  "evidence": [
+                    {
+                      "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-2",
+                      "title": "Oil prices dropped after the hold order",
+                      "description": "Following the announcement to hold off on new strikes, oil prices pulled back.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src3"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src3",
+                      "title": "Oil prices drop after Trump orders US forces to hold off on new strikes against Iran",
+                      "publisher": "AP News",
+                      "publishedAt": "2026-08-02T23:02:13Z",
+                      "url": "https://apnews.com/article/194ab3d3130bb44de445cf3d05954beb",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "corroborating source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-3",
+                  "label": "S3",
+                  "title": "Gulf-led framework signals a de-escalation channel",
+                  "body": "Regional leaders said they had agreed on parameters for a deal to end the conflict.",
+                  "whyImportant": "Introduces a diplomatic path that could reduce attack risk, though its durability remains uncertain.",
+                  "evidence": [
+                    {
+                      "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-3",
+                      "title": "Parameters for a deal cited by Gulf leaders",
+                      "description": "Reports noted statements that parameters for a deal to end the conflict were agreed.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src1",
+                      "title": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war",
+                      "publisher": "AP News",
+                      "publishedAt": "2026-08-01T08:52:04Z",
+                      "url": "https://apnews.com/article/e61e88c14d8aca48c1c56368650baea5",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-4",
+                  "label": "C1",
+                  "title": "Hormuz shipping remains structurally exposed",
+                  "body": "Recent coverage highlighted vessels stranded and elevated risk around the Gulf during the conflict.",
+                  "whyImportant": "Shows why even temporary pauses can move energy and freight costs: the chokepoint is sensitive to escalation signals.",
+                  "evidence": [
+                    {
+                      "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-4",
+                      "title": "Context on vessels and Gulf risk during conflict",
+                      "description": "Background reporting described shipping disruptions and risk exposure in the Gulf and near the Strait of Hormuz.",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "src4"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src4",
+                      "title": "Stranded at sea",
+                      "publisher": "The Week",
+                      "publishedAt": "2026-07-27T00:00:00Z",
+                      "url": "https://theweek.com/world-news/stranded-at-sea-iran-war-ships-persian-gulf",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "context source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "Temporary calm in a chokepoint-dependent system",
+              "before": "Stop–start escalations kept a disruption premium on Gulf energy and shipping as operators treated Hormuz as a live hazard.",
+              "shift": "A public halt to new U.S. strikes, tied to parameters for a deal, reduced the immediate likelihood of additional attacks.",
+              "now": "Oil benchmarks eased and perceived shipping risk tempered, suggesting a truce-like state with high reversal risk.",
+              "conclusion": "Energy-intensive capacity gains a short planning window of lower input volatility, but the system should be treated as provisionally stable and easily reversed."
+            },
+            "insight": {
+              "title": "Operating model shift: risk repriced, continuity conditional",
+              "formula": "Hormuz risk down → energy input volatility down → temporary headroom for compute and industry",
+              "explanation": "A publicly ordered pause and an immediate oil pullback indicate the acute disruption premium eased—for now. Given prior stop–start cycles, treat continuity as conditional, not secured by structure yet."
+            },
+            "observe": {
+              "title": "Observe Next: make it testable",
+              "items": [
+                {
+                  "label": "A",
+                  "prompt": "Do both sides maintain the hold on new strikes across multiple news cycles?",
+                  "meta": "Track official briefings and credible incident reports for any new strikes or seizures."
+                },
+                {
+                  "label": "B",
+                  "prompt": "Is a concrete framework or timeline publicly described by Gulf mediators?",
+                  "meta": "Look for statements outlining parameters, sequencing, or monitoring mechanisms."
+                },
+                {
+                  "label": "C",
+                  "prompt": "Do shippers and insurers adjust advisories for Hormuz transits?",
+                  "meta": "Watch for changes in guidance, routing notes, or coverage language."
+                },
+                {
+                  "label": "D",
+                  "prompt": "Do crude benchmarks and key freight rates stabilize versus pre-pause levels?",
+                  "meta": "Compare closes over the coming days to assess whether the repricing sustains."
+                }
+              ],
+              "ending": "If no new strikes emerge, a framework is articulated, and markets stay calmer, the temporary window for energy-dependent capacity likely persists; otherwise expect the disruption premium to return quickly."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "能源安全更新",
+              "secondaryEyebrow": "地缘政治 • 能源 • 宏观",
+              "title": "美国在海湾国家干预后暂停对伊朗的新一轮打击；油价回落",
+              "summary": "在海湾方称就“终战框架”达成共识后，美国公开叫停对伊朗的新打击，油价与航运风险短暂走弱。安慰是真实的，但依然脆弱。"
+            },
+            "question": {
+              "lead": "降温头条，是去风险还是延期？",
+              "title": "这次“暂停”是否实质性降低了海湾能源与霍尔木兹海峡的短期中断风险，还是市场只是在为短暂停顿重新定价？",
+              "footnote": "基于同日出现的公开“暂停”与随后油价回落；头条态势可能迅速反转。"
+            },
+            "signals": {
+              "title": "信号拆分：哪些在动，哪些能持续",
+              "sourceNote": "来自同日报道与允许来源的背景材料。",
+              "items": [
+                {
+                  "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-1",
+                  "label": "S1",
+                  "title": "公开下令暂停对伊朗的新打击",
+                  "body": "8月2日，在海湾领导人称已就结束冲突的“框架”达成共识后，出现公开指示，要求暂缓对伊朗的进一步打击。",
+                  "whyImportant": "这降低了靠近关键能源资产与通道的即时军事行动概率。",
+                  "evidence": [
+                    {
+                      "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-1",
+                      "title": "在“框架”之后下达暂停指令",
+                      "description": "同日有报道称，因与海湾斡旋相关的“终战参数”，新一轮打击被公开叫停。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src1",
+                        "src2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src1",
+                      "title": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war",
+                      "publisher": "AP News",
+                      "publishedAt": "2026-08-01T08:52:04Z",
+                      "url": "https://apnews.com/article/e61e88c14d8aca48c1c56368650baea5",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "src2",
+                      "title": "Trump cancels Iran attack, citing progress in negotiations",
+                      "publisher": "Axios",
+                      "publishedAt": "2026-08-02T03:40:30Z",
+                      "url": "https://www.axios.com/2026/08/02/trump-iran-attack-cancelled",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "corroborating source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-2",
+                  "label": "S2",
+                  "title": "消息公布后油价走低",
+                  "body": "在“暂停”消息发布后，原油基准出现回落。",
+                  "whyImportant": "市场对短期供应与运输风险重新定价，表明中断溢价阶段性下降。",
+                  "evidence": [
+                    {
+                      "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-2",
+                      "title": "叫停新打击后油价下跌",
+                      "description": "在宣布暂缓新打击之后，油价出现回落。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src3"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src3",
+                      "title": "Oil prices drop after Trump orders US forces to hold off on new strikes against Iran",
+                      "publisher": "AP News",
+                      "publishedAt": "2026-08-02T23:02:13Z",
+                      "url": "https://apnews.com/article/194ab3d3130bb44de445cf3d05954beb",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "corroborating source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-3",
+                  "label": "S3",
+                  "title": "海湾主导的“框架”为降级提供渠道",
+                  "body": "有地区领导人称已就结束冲突的参数达成一致。",
+                  "whyImportant": "引入可能降低袭击风险的外交路径，但其持久性仍不确定。",
+                  "evidence": [
+                    {
+                      "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-3",
+                      "title": "海湾方面提及“终战参数”",
+                      "description": "报道指出，相关表述称已就结束冲突的参数达成一致。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src1",
+                      "title": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war",
+                      "publisher": "AP News",
+                      "publishedAt": "2026-08-01T08:52:04Z",
+                      "url": "https://apnews.com/article/e61e88c14d8aca48c1c56368650baea5",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-4",
+                  "label": "C1",
+                  "title": "霍尔木兹航运结构性暴露仍在",
+                  "body": "近期报道强调，冲突期间海湾周边船只受阻与风险升高。",
+                  "whyImportant": "说明为何即便暂时性缓和也会影响能源与运价：这一要冲对升级信号高度敏感。",
+                  "evidence": [
+                    {
+                      "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-4",
+                      "title": "关于船舶与海湾风险的背景",
+                      "description": "背景材料描述了冲突期间的航运扰动与在海湾及霍尔木兹附近的风险暴露。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "src4"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src4",
+                      "title": "Stranded at sea",
+                      "publisher": "The Week",
+                      "publishedAt": "2026-07-27T00:00:00Z",
+                      "url": "https://theweek.com/world-news/stranded-at-sea-iran-war-ships-persian-gulf",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "context source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "在依赖要冲的体系里，暂时性的平静",
+              "before": "“暂停—再打”的循环使海湾能源与航运长期带着中断溢价，运营方把霍尔木兹当作实时风险源。",
+              "shift": "与海湾方“终战参数”相关的公开叫停新打击，降低了短期内新增袭击的可能性。",
+              "now": "油价回落、航运担忧缓和，呈现类似“停火窗口”的状态，但反转风险仍高。",
+              "conclusion": "高耗能产能获得短暂的成本与波动缓释窗口，但应将其视为临时稳定、随时可被逆转。"
+            },
+            "insight": {
+              "title": "运行模型转变：风险被重定价，延续性取决于条件",
+              "formula": "霍尔木兹风险下降 → 能源输入波动下降 → 计算与工业获得短暂回旋空间",
+              "explanation": "公开叫停与油价即刻回落显示：急性中断溢价阶段性减弱。鉴于此前“暂停—再打”的经验，当前延续性仍是“有条件”的，而非结构性巩固。"
+            },
+            "observe": {
+              "title": "接下来观察：可验证的信号",
+              "items": [
+                {
+                  "label": "A",
+                  "prompt": "多轮新闻周期内，相关各方是否继续维持“暂缓新打击”？",
+                  "meta": "跟踪官方通报与可信事故信息，留意新打击或扣押事件。"
+                },
+                {
+                  "label": "B",
+                  "prompt": "海湾斡旋方是否公开阐述更具体的框架或时间表？",
+                  "meta": "关注对参数、步骤与监督机制的表述。"
+                },
+                {
+                  "label": "C",
+                  "prompt": "船东与保险是否调整霍尔木兹通行的提示？",
+                  "meta": "留意通告、航线建议或承保条款的变化。"
+                },
+                {
+                  "label": "D",
+                  "prompt": "原油基准与关键运价是否相对“暂停”前更为平稳？",
+                  "meta": "对比接下来数日的收盘，判断重定价能否维持。"
+                }
+              ],
+              "ending": "若“无新打击—框架有进展—市场更平稳”三项能同时保持，面向能源依赖型产能的短期窗口大概率延续；否则，中断溢价或迅速回归。"
+            }
+          },
+          "ja": {
+            "cover": {
+              "eyebrow": "エネルギー安全アップデート",
+              "secondaryEyebrow": "地政学 • エネルギー • マクロ",
+              "title": "湾岸諸国の仲介で米国が対イラン追加攻撃を一時停止、原油は軟化",
+              "summary": "湾岸の仲介で追加攻撃が公に見送られ、原油と航行リスクが一時的に落ち着いた。安堵は本物だが、脆弱だ。"
+            },
+            "question": {
+              "lead": "緊張緩和の見出しは、去リスクか延期か？",
+              "title": "攻撃停止で、湾岸のエネルギー流とホルムズ海峡の短期途絶リスクは実質的に低下したのか、それとも市場は短い猶予を織り直しただけか？",
+              "footnote": "同日中の停止発表とそれに続く原油反落を前提にした設問。見出しは素早く反転し得る。"
+            },
+            "signals": {
+              "title": "シグナル：何が動き、何が続くか",
+              "sourceNote": "同日の報道と許可された背景情報に基づく。",
+              "items": [
+                {
+                  "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-1",
+                  "label": "S1",
+                  "title": "新たな対イラン攻撃の一時停止を公に指示",
+                  "body": "8月2日、湾岸指導者が終戦の枠組みの合意に言及した後、追加攻撃の見送りが公に指示された。",
+                  "whyImportant": "重要なエネルギー資産と航路周辺での即時的な軍事行動の確率を引き下げる。",
+                  "evidence": [
+                    {
+                      "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-1",
+                      "title": "枠組み合意の言及後に停止指示",
+                      "description": "湾岸の仲介に紐づく形で新規攻撃の停止が同日に報じられた。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src1",
+                        "src2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src1",
+                      "title": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war",
+                      "publisher": "AP News",
+                      "publishedAt": "2026-08-01T08:52:04Z",
+                      "url": "https://apnews.com/article/e61e88c14d8aca48c1c56368650baea5",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "src2",
+                      "title": "Trump cancels Iran attack, citing progress in negotiations",
+                      "publisher": "Axios",
+                      "publishedAt": "2026-08-02T03:40:30Z",
+                      "url": "https://www.axios.com/2026/08/02/trump-iran-attack-cancelled",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "corroborating source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-2",
+                  "label": "S2",
+                  "title": "発表後に原油価格が反落",
+                  "body": "停止のニュースを受け、原油指標が下落した。",
+                  "whyImportant": "短期の供給・輸送リスクを市場が再評価し、中断プレミアムが一時的に和らいだことを示す。",
+                  "evidence": [
+                    {
+                      "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-2",
+                      "title": "見送り指示の後、原油が下落",
+                      "description": "新たな攻撃見送りの発表後、原油価格が反落した。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src3"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src3",
+                      "title": "Oil prices drop after Trump orders US forces to hold off on new strikes against Iran",
+                      "publisher": "AP News",
+                      "publishedAt": "2026-08-02T23:02:13Z",
+                      "url": "https://apnews.com/article/194ab3d3130bb44de445cf3d05954beb",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "corroborating source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-3",
+                  "label": "S3",
+                  "title": "湾岸主導の枠組みはデエスカレーションの経路",
+                  "body": "地域の指導者は、戦闘終結のためのパラメーターに合意したと述べた。",
+                  "whyImportant": "攻撃リスクを下げ得る外交的な道筋が生まれた一方、その持続性は不明。",
+                  "evidence": [
+                    {
+                      "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-3",
+                      "title": "終結パラメーターへの合意に言及",
+                      "description": "戦闘終結のためのパラメーターに合意したとの声明が報じられた。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src1",
+                      "title": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war",
+                      "publisher": "AP News",
+                      "publishedAt": "2026-08-01T08:52:04Z",
+                      "url": "https://apnews.com/article/e61e88c14d8aca48c1c56368650baea5",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-signal-4",
+                  "label": "C1",
+                  "title": "ホルムズの航行は構造的に脆弱",
+                  "body": "最近の報道は、紛争下で湾岸周辺の船舶滞留やリスク上昇を取り上げた。",
+                  "whyImportant": "なぜ一時的な緩和でもエネルギーと運賃に効くのかを示す。要衝はエスカレーションのサインに敏感だ。",
+                  "evidence": [
+                    {
+                      "id": "sig-20260802-us-pauses-iran-strikes-energy-risk-evidence-4",
+                      "title": "湾岸の船舶・リスクに関する背景",
+                      "description": "紛争期の航行混乱と、ホルムズ周辺でのリスク露出が説明されている。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "src4"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src4",
+                      "title": "Stranded at sea",
+                      "publisher": "The Week",
+                      "publishedAt": "2026-07-27T00:00:00Z",
+                      "url": "https://theweek.com/world-news/stranded-at-sea-iran-war-ships-persian-gulf",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "context source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "要衝依存の体系に訪れた一時的な静けさ",
+              "before": "“停止→再開”の循環が、湾岸のエネルギーと航行に中断プレミアムを乗せ続けていた。",
+              "shift": "湾岸の枠組み言及を背景に、新規攻撃の見送りが公に指示され、直近の追加攻撃の確率が下がった。",
+              "now": "原油が軟化し航行不安も和らいだが、状況は停戦的で反転リスクが高い。",
+              "conclusion": "エネルギー多消費の分野には短い安定の“息継ぎ”が生まれたが、これは仮の安定であり、容易に逆転し得ると見なすべきだ。"
+            },
+            "insight": {
+              "title": "運用モデルの転換：リスクは再評価、継続は条件付き",
+              "formula": "ホルムズのリスク低下 → エネルギー入力の変動低下 → 計算資源と産業に一時的な余裕",
+              "explanation": "公の停止指示と即時の原油反落は、急性の中断プレミアムが当面和らいだことを示す。一方、過去の“停止→再開”から、継続性はまだ構造的に担保されていない。"
+            },
+            "observe": {
+              "title": "次に観察すること：検証可能な項目",
+              "items": [
+                {
+                  "label": "A",
+                  "prompt": "複数のニュース周期にわたり、新規攻撃の見送りは維持されるか？",
+                  "meta": "公式ブリーフィングと信頼できるインシデント報告を追う。"
+                },
+                {
+                  "label": "B",
+                  "prompt": "湾岸の仲介者から、より具体的な枠組みやタイムラインが示されるか？",
+                  "meta": "パラメーター、手順、監視の仕組みに関する声明を確認。"
+                },
+                {
+                  "label": "C",
+                  "prompt": "船社・保険はホルムズ通過に関する勧告を調整するか？",
+                  "meta": "通達、迂回提案、補償条件の変化を注視。"
+                },
+                {
+                  "label": "D",
+                  "prompt": "原油指標や主要運賃は“停止前”と比べて安定するか？",
+                  "meta": "今後数日の終値を比較し、再評価が持続するかを確認。"
+                }
+              ],
+              "ending": "新規攻撃がなく、枠組みの進展が見え、市場も落ち着く——この複数が同時に続けば、エネルギー依存分野の一時的な窓は持続しやすい。逆なら、中断プレミアムの再拡大を想定。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-2026-08-02",
+        "date": "2026-08-02",
+        "decidedAt": "2026-08-03T01:10:42.108Z",
+        "state": "update_living",
+        "insightId": "global-2026-08-02-u-s-halts-planned-iran-strikes-after-gulf-intervention-oil-eases",
+        "processId": "process-energy-security",
+        "materialChangeScore": 49,
+        "evidenceStrength": 72,
+        "noveltyScore": 84,
+        "importanceScore": 88,
+        "candidateSignalIds": [
+          "sig-20260802-us-pauses-iran-strikes-energy-risk"
+        ],
+        "content": {
+          "en": {
+            "label": "Update",
+            "decisionTitle": "Treat the relief as temporary",
+            "decisionSummary": "The event eases acute risk, but exposure to Gulf chokepoints remains. Our thesis on energy as strategic capacity stands.",
+            "thresholdReason": "Public pause and oil pullback observed; durability unproven.",
+            "observeNext": [
+              "Maintain hold on new strikes",
+              "Public articulation of a framework",
+              "Stability in crude benchmarks"
+            ]
+          },
+          "zh": {
+            "label": "更新",
+            "decisionTitle": "将这次缓解视为临时性",
+            "decisionSummary": "短期风险缓和，但对海湾要冲的暴露依旧。能源即战略能力的论断不变。",
+            "thresholdReason": "出现公开“暂停”和油价回落；持续性未证实。",
+            "observeNext": [
+              "是否维持“暂缓新打击”",
+              "是否公开更具体框架",
+              "原油基准是否更稳"
+            ]
+          },
+          "ja": {
+            "label": "アップデート",
+            "decisionTitle": "安堵は一時的とみなす",
+            "decisionSummary": "急性リスクは和らいだが、湾岸の要衝への構造的な曝露は続く。エネルギー＝戦略的能力という仮説は維持。",
+            "thresholdReason": "公の停止と原油反落を確認。持続性は未確認。",
+            "observeNext": [
+              "新規攻撃の見送りが継続するか",
+              "枠組みの具体化が示されるか",
+              "原油指標の安定性"
+            ]
+          }
+        }
+      },
+      "processUpdate": {
+        "processId": "process-energy-security",
+        "updatedAt": "2026-08-03T01:10:42.108Z",
+        "appendInsightId": "global-2026-08-02-u-s-halts-planned-iran-strikes-after-gulf-intervention-oil-eases",
+        "evolutionEvent": {
+          "id": "evolution-sig-20260802-us-pauses-iran-strikes-energy-risk",
+          "date": "2026-08-02",
+          "stage": "accelerating",
+          "impact": "updates",
+          "insightId": "global-2026-08-02-u-s-halts-planned-iran-strikes-after-gulf-intervention-oil-eases",
+          "content": {
+            "en": {
+              "title": "When Hormuz risk softens, compute breathes—briefly",
+              "description": "A public strike pause and an immediate oil pullback suggest acute disruption risk eased for now, reinforcing the link between secure energy flows and capacity planning.",
+              "implication": "Consider the relief tactical; structural exposure to Gulf chokepoints persists until formal, durable mechanisms are in place."
+            },
+            "zh": {
+              "title": "当霍尔木兹风险走软，算力与工业得以“短促换气”",
+              "description": "公开叫停与随之而来的油价回落，表明急性中断风险阶段性缓解，强化了“能源安全—产能规划”的联动。",
+              "implication": "将其视为战术性缓解；在更正式、可持续的机制落地前，对海湾要冲的结构性暴露依然存在。"
+            },
+            "ja": {
+              "title": "ホルムズのリスクが緩むと、計算と産業はひと息つける——ただし短い",
+              "description": "公の停止と即時の原油反落は、当面の途絶リスクの緩和を示し、エネルギーの安定と能力計画の結びつきを補強する。",
+              "implication": "安堵は戦術的なものに過ぎない。恒久的な仕組みが整うまでは、湾岸の要衝への構造的曝露は残る。"
+            }
+          }
+        },
+        "nextQuestion": {
+          "en": "Do the stated parameters mature into concrete, monitorable steps that can sustain lower risk, or does the conflict snap back to a stop–start cycle?",
+          "zh": "所称的“参数”能否转化为可监测的具体步骤以维持低风险，还是冲突会重新陷入“暂停—再打”的循环？",
+          "ja": "言及されたパラメーターは、低リスクを維持できる具体的で監視可能な手順に成熟するのか、それとも紛争は“停止→再開”に戻るのか？"
+        },
+        "observeNext": {
+          "en": [
+            "Official statements confirming continued hold on new strikes",
+            "Public details of a framework or timeline",
+            "Incident reports near Gulf energy and shipping infrastructure",
+            "Stability in crude benchmarks and key freight markers"
+          ],
+          "zh": [
+            "官方是否继续确认“暂缓新打击”",
+            "是否公开框架或时间表的细节",
+            "海湾能源与航运设施附近的事件报告",
+            "原油基准与关键运价的稳定性"
+          ],
+          "ja": [
+            "新規攻撃の見送り継続に関する公式発言",
+            "枠組みやタイムラインの公表",
+            "湾岸のエネルギー・航行インフラ周辺のインシデント報告",
+            "原油指標や主要運賃指標の安定性"
+          ]
+        }
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-08-03T01:10:53.282Z",
+        "override": false,
+        "overrideReason": null,
+        "originalPublishThresholdMet": true,
+        "originalDailyState": "update_living"
+      },
+      "approvedAt": "2026-08-03T01:10:53.282Z"
+    },
     {
       "id": "writer-sig-2026-08-01-paducah-ai-campus-1785594109578",
       "status": "approved",
@@ -3766,5 +5133,14 @@
         }
       }
     }
-  ]
+  ],
+  "processFoundation": {
+    "version": 2,
+    "lastUpdatedAt": "2026-08-03T01:10:53.282Z",
+    "lastMatchedProcessId": "process-energy-security"
+  },
+  "linkageIntegrity": {
+    "version": 1,
+    "repairedAt": "2026-08-03T01:10:54.168Z"
+  }
 }
