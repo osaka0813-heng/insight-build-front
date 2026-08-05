@@ -1,8 +1,583 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T05:16:19.753Z",
-  "contentVersion": "publish-global-2026-08-03-doe-extends-202-c-emergency-authority-to-spp-with-explicit-data-center-b-1785734180703",
+  "generatedAt": "2026-08-05T04:13:53.476Z",
+  "contentVersion": "publish-global-2026-08-03-texas-orders-comprehensive-audit-and-pauses-grid-approvals-for-new-data--1785903234361",
   "insights": [
+    {
+      "id": "global-2026-08-03-texas-orders-comprehensive-audit-and-pauses-grid-approvals-for-new-data-",
+      "slug": "texas-dc-audit-pause-ercot",
+      "status": "update_living",
+      "processId": "process-ai-infrastructure-race",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "updatedAt": "2026-08-05T02:23:35.470Z",
+      "confidence": "developing",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "The AI infrastructure race",
+            "secondaryEyebrow": "Texas grid and data centers",
+            "title": "Texas orders comprehensive audit and pauses grid approvals for new data centers",
+            "summary": "Texas directed its utility regulator and grid operator to audit all data center projects in ERCOT’s interconnection queue and pause connection approvals until audits conclude; projects that do not meet requirements will be denied. In one of the fastest‑growing AI hubs, interconnection just became a statewide gate."
+          },
+          "question": {
+            "lead": "Policy can throttle capacity faster than construction can create it.",
+            "title": "Does Texas’ audit‑and‑pause make interconnection the binding constraint for AI‑scale buildouts?",
+            "footnote": "If yes, developers may tilt toward bundled on‑site power and revisit siting and water practices to de‑risk timelines."
+          },
+          "signals": {
+            "title": "What changed and why it matters",
+            "sourceNote": "Based on an official state directive, corroborating coverage, and recent grid policy context.",
+            "items": [
+              {
+                "id": "sig-2026-08-03-tx-dc-audit-signal-1",
+                "label": "Trigger",
+                "title": "State orders comprehensive audit across ERCOT’s queue",
+                "body": "The governor instructed the regulator and grid operator to audit all queued data center projects.",
+                "whyImportant": "Creates a single statewide review standard that cuts across individual projects.",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-03-tx-dc-audit-evidence-1",
+                    "title": "Directive mandates audit and defines scope",
+                    "description": "All data center projects in ERCOT’s interconnection queue are subject to a comprehensive audit.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src1",
+                    "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+                    "publisher": "Office of the Texas Governor",
+                    "publishedAt": "2026-08-03",
+                    "url": "https://gov.texas.gov/news",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-2026-08-03-tx-dc-audit-signal-2",
+                "label": "Pause",
+                "title": "Approvals to connect are halted pending audits",
+                "body": "New grid‑connection approvals are paused until audits are complete.",
+                "whyImportant": "Introduces an immediate timing constraint on bringing new capacity online.",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-03-tx-dc-audit-evidence-2",
+                    "title": "Audit linked to a temporary approval pause",
+                    "description": "Connection approvals are paused during the audit period.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src1",
+                      "src2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src1",
+                    "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+                    "publisher": "Office of the Texas Governor",
+                    "publishedAt": "2026-08-03",
+                    "url": "https://gov.texas.gov/news",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "src2",
+                    "title": "Gov. Greg Abbott halts Texas data center approvals - Axios San Antonio",
+                    "publisher": "Axios",
+                    "publishedAt": "2026-08-03",
+                    "url": "https://www.axios.com/local/san-antonio/2026/08/03/greg-abbott-halts-texas-data-centers-electric-grid",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "corroborating source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-2026-08-03-tx-dc-audit-signal-3",
+                "label": "Gatekeeping",
+                "title": "Non‑compliant projects to be denied connection",
+                "body": "Projects that fail to meet requirements identified through the audit will be denied grid interconnection.",
+                "whyImportant": "Raises the risk of stranded development and forces compliance up front.",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-03-tx-dc-audit-evidence-3",
+                    "title": "Directive specifies consequences for failing requirements",
+                    "description": "Projects that do not meet audit requirements will be denied grid connection.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src1",
+                    "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+                    "publisher": "Office of the Texas Governor",
+                    "publishedAt": "2026-08-03",
+                    "url": "https://gov.texas.gov/news",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-2026-08-03-tx-dc-audit-signal-4",
+                "label": "Context",
+                "title": "ERCOT’s process for large loads already tightened",
+                "body": "A process tailored to connecting large electricity users was approved to protect system reliability.",
+                "whyImportant": "Indicates pre‑existing momentum to gate large load interconnections before the statewide audit.",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-03-tx-dc-audit-evidence-4",
+                    "title": "Approval of a process focused on large‑load connections",
+                    "description": "A connection process designed for large electricity users was approved with a reliability focus.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src3"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src3",
+                    "title": "PUCT Approves ERCOT's Batch Zero Process for Connecting Large Electricity Users While Protecting System Reliability for Texans",
+                    "publisher": "ERCOT",
+                    "publishedAt": "2026-06-18",
+                    "url": "https://www.ercot.com/news/release/06182026-puct-approves-ercots",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "Additional policy momentum",
+            "before": "Agencies responded to earlier direction by asking lawmakers for more authority related to large loads.",
+            "shift": "Regulatory bodies are signaling they may need expanded tools to manage data center interconnections.",
+            "now": "Legislative follow‑through would further formalize policy gating of large loads.",
+            "conclusion": "If authority expands, policy could durably mediate the pace and shape of AI data center growth."
+          },
+          "insight": {
+            "title": "Texas turned interconnection into a policy gate",
+            "formula": "In Texas, near‑term AI compute will scale at the speed of interconnection governance.",
+            "explanation": "We expect audit timelines and compliance outcomes to shape when and how new capacity connects to the grid."
+          },
+          "observe": {
+            "title": "What to watch next",
+            "items": [
+              {
+                "label": "Criteria",
+                "prompt": "Publication of the audit scope, standards, and compliance criteria by regulators or the grid operator",
+                "meta": "Confirms what “meets requirements” means in practice"
+              },
+              {
+                "label": "Timeline",
+                "prompt": "A public timeline or milestones for lifting the pause and resuming approvals",
+                "meta": "Signals how long interconnection remains the pacing item"
+              },
+              {
+                "label": "Outcomes",
+                "prompt": "Early denials, withdrawals, or conditional approvals emerging from the audit",
+                "meta": "Reveals how strict the bar is and which designs pass"
+              },
+              {
+                "label": "Process fit",
+                "prompt": "Clarification on how the large‑load connection process interacts with the new audit",
+                "meta": "Shows whether expedited pathways remain during the pause or post‑audit phase"
+              }
+            ],
+            "ending": "Price near‑term Texas compute with an interconnection audit premium—and reward architectures that can clear it."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "AI 基础设施竞赛",
+            "secondaryEyebrow": "德州电网与数据中心",
+            "title": "德州下令全面审查并暂停新数据中心并网审批",
+            "summary": "德州要求监管机构与电网运营方对ERCOT并网排队中的所有数据中心项目进行审查，并在审查结束前暂停并网批准；未达要求者将被拒绝接入。作为AI增长最快的枢纽之一，德州把“并网”上升为全州层面的准入门槛。"
+          },
+          "question": {
+            "lead": "政策往往比施工更快改变产能曲线。",
+            "title": "德州“审查+暂停”是否让并网成为AI大规模建设的首要约束？",
+            "footnote": "若为真，开发商可能转向自备电源等一体化方案，并重估选址与用水策略以降低风险。"
+          },
+          "signals": {
+            "title": "发生了什么，为什么重要",
+            "sourceNote": "基于官方指令、媒体佐证与近期电网政策背景。",
+            "items": [
+              {
+                "id": "sig-2026-08-03-tx-dc-audit-signal-1",
+                "label": "触发",
+                "title": "全州命令：对ERCOT排队中的项目开展全面审查",
+                "body": "州长指示监管机构与电网运营方审查所有在列数据中心项目。",
+                "whyImportant": "为全州项目设定统一的审查标准，超越单个项目层面。",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-03-tx-dc-audit-evidence-1",
+                    "title": "指令明确审查与范围",
+                    "description": "ERCOT并网队列中的全部数据中心项目被纳入全面审查。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src1",
+                    "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+                    "publisher": "Office of the Texas Governor",
+                    "publishedAt": "2026-08-03",
+                    "url": "https://gov.texas.gov/news",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-2026-08-03-tx-dc-audit-signal-2",
+                "label": "暂停",
+                "title": "审查期间暂停新的并网批准",
+                "body": "在审查完成之前，新的电网接入审批处于暂停状态。",
+                "whyImportant": "对新增产能并网形成立刻的时间约束。",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-03-tx-dc-audit-evidence-2",
+                    "title": "审查与临时审批暂停相连",
+                    "description": "审查进行期间，接入审批暂停。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src1",
+                      "src2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src1",
+                    "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+                    "publisher": "Office of the Texas Governor",
+                    "publishedAt": "2026-08-03",
+                    "url": "https://gov.texas.gov/news",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "src2",
+                    "title": "Gov. Greg Abbott halts Texas data center approvals - Axios San Antonio",
+                    "publisher": "Axios",
+                    "publishedAt": "2026-08-03",
+                    "url": "https://www.axios.com/local/san-antonio/2026/08/03/greg-abbott-halts-texas-data-centers-electric-grid",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "corroborating source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-2026-08-03-tx-dc-audit-signal-3",
+                "label": "门槛",
+                "title": "未达要求的项目将被拒绝并网",
+                "body": "未满足审查要求的项目将被拒绝接入电网。",
+                "whyImportant": "提升前期合规的重要性，也增加项目搁置风险。",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-03-tx-dc-audit-evidence-3",
+                    "title": "指令明确未达标的后果",
+                    "description": "不符合审查要求的项目将被拒绝接入。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src1",
+                    "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+                    "publisher": "Office of the Texas Governor",
+                    "publishedAt": "2026-08-03",
+                    "url": "https://gov.texas.gov/news",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-2026-08-03-tx-dc-audit-signal-4",
+                "label": "背景",
+                "title": "大型负荷并网流程已趋收紧",
+                "body": "一个面向大型用电负荷的并网流程已获批准，强调系统可靠性。",
+                "whyImportant": "显示在全州审查之前，已存在对大型负荷并网的门控趋势。",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-03-tx-dc-audit-evidence-4",
+                    "title": "聚焦大型负荷连接的流程获批",
+                    "description": "为大型用电用户设计、以可靠性为重点的连接流程获得批准。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src3"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src3",
+                    "title": "PUCT Approves ERCOT's Batch Zero Process for Connecting Large Electricity Users While Protecting System Reliability for Texans",
+                    "publisher": "ERCOT",
+                    "publishedAt": "2026-06-18",
+                    "url": "https://www.ercot.com/news/release/06182026-puct-approves-ercots",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "政策动能延续",
+            "before": "相关机构对先前要求作出回应，向立法机关申请更大权限以管理大型负荷。",
+            "shift": "监管部门释放信号，管理数据中心并网可能需要更多工具与权限。",
+            "now": "若立法推进，政策门槛将进一步制度化。",
+            "conclusion": "一旦权限扩张，政策或将更持久地影响AI数据中心的增速与路径。"
+          },
+          "insight": {
+            "title": "德州把“并网”变成政策门槛",
+            "formula": "在德州，短期AI算力的扩张速度将由并网治理的速度决定。",
+            "explanation": "预计审查节奏与合规结果将决定新产能何时、如何接入电网。"
+          },
+          "observe": {
+            "title": "接下来观察什么",
+            "items": [
+              {
+                "label": "标准",
+                "prompt": "监管或电网机构公布审查范围、标准与合规认定",
+                "meta": "明确“达标”的实际含义"
+              },
+              {
+                "label": "时间表",
+                "prompt": "公开暂停解除的时间规划或关键里程碑",
+                "meta": "判断并网何时不再成为节拍器"
+              },
+              {
+                "label": "结果",
+                "prompt": "出现早期的否决、撤案或附条件批准",
+                "meta": "揭示门槛严苛程度与何种设计可通关"
+              },
+              {
+                "label": "流程衔接",
+                "prompt": "明确大型负荷并网流程与此次审查的互动方式",
+                "meta": "判断暂停期内及审查后是否仍有加速通道"
+              }
+            ],
+            "ending": "为德州的短期算力给出“并网审查溢价”，并奖励能跨越门槛的架构。"
+          }
+        },
+        "ja": {
+          "cover": {
+            "eyebrow": "AIインフラ競争",
+            "secondaryEyebrow": "テキサスの電網とデータセンター",
+            "title": "テキサス州がデータセンターの包括監査を指示、グリッド接続の承認を一時停止",
+            "summary": "州は規制当局と系統運用者に対し、ERCOTの連系待ち行列にある全データセンタープロジェクトを監査し、完了まで接続承認を停止、要件未達の案件は接続不可とするよう指示。急伸するAI拠点で、連系が全州レベルのゲートになった。"
+          },
+          "question": {
+            "lead": "政策は施工より速く、供給曲線を変える。",
+            "title": "監査と一時停止は、AI規模の増設における“連系”を支配的制約にするのか？",
+            "footnote": "そうなれば、開発はオンサイト電源の一体化や立地・用水の見直しでリスク低減を図る可能性が高い。"
+          },
+          "signals": {
+            "title": "変化点と意味合い",
+            "sourceNote": "州の公式指示、報道の裏取り、最近の電網方針を基に整理。",
+            "items": [
+              {
+                "id": "sig-2026-08-03-tx-dc-audit-signal-1",
+                "label": "トリガー",
+                "title": "ERCOTの待ち行列全件に包括監査を指示",
+                "body": "州知事が規制当局と系統運用者に対し、全データセンター案件の監査を求めた。",
+                "whyImportant": "個別案件を超えて、全州で統一基準の審査がかかる。",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-03-tx-dc-audit-evidence-1",
+                    "title": "指示が監査と対象範囲を明示",
+                    "description": "ERCOTの連系行列にある全データセンター案件が監査対象。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src1",
+                    "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+                    "publisher": "Office of the Texas Governor",
+                    "publishedAt": "2026-08-03",
+                    "url": "https://gov.texas.gov/news",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-2026-08-03-tx-dc-audit-signal-2",
+                "label": "停止",
+                "title": "監査完了まで接続承認を停止",
+                "body": "監査が完了するまで新規の系統接続承認は保留される。",
+                "whyImportant": "新規キャパシティの立ち上げに即時の時間制約を導入。",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-03-tx-dc-audit-evidence-2",
+                    "title": "監査と一時停止の連動",
+                    "description": "監査期間中は接続承認が停止される。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src1",
+                      "src2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src1",
+                    "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+                    "publisher": "Office of the Texas Governor",
+                    "publishedAt": "2026-08-03",
+                    "url": "https://gov.texas.gov/news",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "src2",
+                    "title": "Gov. Greg Abbott halts Texas data center approvals - Axios San Antonio",
+                    "publisher": "Axios",
+                    "publishedAt": "2026-08-03",
+                    "url": "https://www.axios.com/local/san-antonio/2026/08/03/greg-abbott-halts-texas-data-centers-electric-grid",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "corroborating source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-2026-08-03-tx-dc-audit-signal-3",
+                "label": "ゲート",
+                "title": "要件未達の案件は接続不可",
+                "body": "監査で要件を満たさない案件は系統接続が認められない。",
+                "whyImportant": "前倒しのコンプライアンスを迫り、開発の座礁リスクを高める。",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-03-tx-dc-audit-evidence-3",
+                    "title": "未達時の帰結を明記",
+                    "description": "要件を満たさない案件は系統接続を拒否。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src1",
+                    "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+                    "publisher": "Office of the Texas Governor",
+                    "publishedAt": "2026-08-03",
+                    "url": "https://gov.texas.gov/news",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-2026-08-03-tx-dc-audit-signal-4",
+                "label": "文脈",
+                "title": "大型負荷向け接続プロセスが強化済み",
+                "body": "大型電力需要者向けの接続プロセスが、信頼性確保を目的に承認されている。",
+                "whyImportant": "全州監査に先立ち、大型負荷接続を門戸管理する流れが既にあったことを示す。",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-03-tx-dc-audit-evidence-4",
+                    "title": "大型負荷接続に焦点を当てたプロセスの承認",
+                    "description": "大型需要家向けで信頼性を重視した接続プロセスが承認。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src3"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src3",
+                    "title": "PUCT Approves ERCOT's Batch Zero Process for Connecting Large Electricity Users While Protecting System Reliability for Texans",
+                    "publisher": "ERCOT",
+                    "publishedAt": "2026-06-18",
+                    "url": "https://www.ercot.com/news/release/06182026-puct-approves-ercots",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "政策モメンタムの継続",
+            "before": "関係機関は先の指示に応じ、立法府により強い権限を求めた。",
+            "shift": "規制当局はデータセンター連系の管理に追加の権限が必要となる可能性を示唆。",
+            "now": "権限が法制化されれば、門戸管理はさらに制度として固定化される。",
+            "conclusion": "権限拡大が進めば、AIデータセンターの成長速度と構成は、政策によってより強く媒介される。"
+          },
+          "insight": {
+            "title": "テキサスは“連系”を政策ゲートにした",
+            "formula": "テキサスでは、短期のAIコンピュートは連系ガバナンスの速度で伸びる。",
+            "explanation": "監査の時間軸と適合結果が、新設容量の接続時期と形態を左右すると見込まれる。"
+          },
+          "observe": {
+            "title": "次に検証すること",
+            "items": [
+              {
+                "label": "基準",
+                "prompt": "規制当局や系統運用者が監査の範囲・基準・適合判断を公表するか",
+                "meta": "実務上の“要件充足”を可視化"
+              },
+              {
+                "label": "工程",
+                "prompt": "停止解除に向けたスケジュールやマイルストーンの提示",
+                "meta": "連系が“テンポ”でなくなる時期を示す"
+              },
+              {
+                "label": "判定",
+                "prompt": "監査に伴う早期の不承認・撤回・条件付き承認の発生",
+                "meta": "基準の厳しさと通過しうる設計を把握"
+              },
+              {
+                "label": "整合",
+                "prompt": "大型負荷向け接続プロセスと今回の監査の関係整理",
+                "meta": "停止期間中・監査後も迅速化経路が残るかを確認"
+              }
+            ],
+            "ending": "テキサスの短期コンピュートには“連系監査プレミアム”を織り込み、通過可能な設計を評価せよ。"
+          }
+        }
+      }
+    },
     {
       "id": "global-2026-08-03-doe-extends-202-c-emergency-authority-to-spp-with-explicit-data-center-b",
       "slug": "doe-202c-spp-datacenter-backupgen-20260803",
@@ -2606,8 +3181,9 @@
       "status": "accelerating",
       "confidence": "verified",
       "startedAt": "2026-07-01T00:00:00+09:00",
-      "updatedAt": "2026-08-01T14:21:49.578Z",
+      "updatedAt": "2026-08-05T02:23:35.471Z",
       "insightIds": [
+        "global-2026-08-03-texas-orders-comprehensive-audit-and-pauses-grid-approvals-for-new-data-",
         "global-2026-08-01-doe-taps-brookfield-for-paducah-ai-campus-nextera-to-build-2-gw-gas-2-6-",
         "global-2026-07-26-capacity-update",
         "global-2026-07-29-capacity",
@@ -2636,6 +3212,34 @@
         }
       ],
       "evolution": [
+        {
+          "id": "evolution-sig-2026-08-03-tx-dc-audit",
+          "date": "2026-08-03",
+          "stage": "structural",
+          "impact": "updates",
+          "insightId": "global-2026-08-03-texas-orders-comprehensive-audit-and-pauses-grid-approvals-for-new-data-",
+          "content": {
+            "en": {
+              "title": "Texas introduces a statewide policy gate on data center interconnections",
+              "description": "A directive orders a comprehensive audit of all data center projects in ERCOT’s queue and pauses approvals until audits conclude, with non‑compliant projects to be denied connection.",
+              "implication": "Expect build sequencing and financing to reflect audit timing and compliance risk; integrated power strategies may gain favor."
+            },
+            "zh": {
+              "title": "德州在数据中心并网上设立全州政策门槛",
+              "description": "一项指令要求对ERCOT并网排队中的所有数据中心项目进行全面审查，在审查完成前暂停审批，未达要求者将被拒绝接入。",
+              "implication": "建设节奏与融资将更多取决于审查进度与合规风险；配套电源一体化策略或更受青睐。"
+            },
+            "ja": {
+              "title": "テキサスがデータセンター連系に全州的な政策ゲートを導入",
+              "description": "ERCOTの行列にある全データセンター案件の包括監査を命じ、完了まで承認を停止。要件未達は接続不可とする方針。",
+              "implication": "建設シーケンスや資金調達は監査の時間軸と適合リスクを反映。電源一体型の戦略が優位になる可能性。"
+            }
+          },
+          "previousStage": "structural",
+          "changeType": "new_evidence",
+          "confidenceDelta": 1,
+          "evidenceIds": []
+        },
         {
           "id": "evolution-sig-2026-08-01-paducah-ai-campus",
           "date": "2026-08-01",
@@ -2802,7 +3406,7 @@
           "title": "The AI infrastructure race",
           "summary": "AI competition is expanding from model quality into control of power, compute, land and distribution.",
           "thesis": "The durable advantage may belong to companies that can repeatedly convert intelligence into dependable, large-scale capacity.",
-          "nextQuestion": "Will state approvals and definitive agreements coalesce fast enough to keep power and compute timelines in sync at Paducah?",
+          "nextQuestion": "Will regulators publish transparent audit criteria and a clear timeline to lift the pause?",
           "domains": [
             "AI",
             "Energy",
@@ -2813,17 +3417,17 @@
           "currentStageLabel": "Industrial finance",
           "stageSummary": "AI expansion is becoming a bankable industrial system combining guarantees, dedicated power, land, construction and policy.",
           "observeNext": [
-            "State utility commission decisions on power service agreements",
-            "Execution of definitive site, power, and transmission agreements",
-            "Environmental review outcomes and local permitting milestones",
-            "Announced sequencing for gas units, storage, and data halls"
+            "Publication of audit scope and criteria",
+            "Public milestones for resuming approvals",
+            "Initial denials, withdrawals, or conditional approvals",
+            "Clarification of how the large‑load connection process applies during/after the audit"
           ]
         },
         "zh": {
           "title": "AI基础设施竞赛",
           "summary": "AI竞争正在从模型质量，扩展到对电力、算力、土地和分发能力的控制。",
           "thesis": "更持久的优势，可能属于那些能够持续把智能转化为稳定、大规模供给能力的企业。",
-          "nextQuestion": "州级审批与最终协议能否足够快地落地，以保证帕杜卡的电力与算力时程保持同步？",
+          "nextQuestion": "监管机构是否会公布透明的审查标准和明确的解禁时间表？",
           "domains": [
             "人工智能",
             "能源",
@@ -2834,17 +3438,17 @@
           "currentStageLabel": "工业融资期",
           "stageSummary": "AI扩张正成为由担保、专用能源、土地、工程建设与政策共同组成的可融资工业系统。",
           "observeNext": [
-            "州公用事业委员会对供电服务协议的裁决",
-            "场地、供电与输电的最终协议签署",
-            "环境评审结论与本地许可关键节点",
-            "燃机、储能与数据厅的施工时序发布"
+            "公布审查范围与标准",
+            "恢复审批的公开里程碑",
+            "出现否决、撤案或附条件批准",
+            "明确大型负荷并网流程在审查期内/之后的适用方式"
           ]
         },
         "ja": {
           "title": "AIインフラ競争",
           "summary": "AI競争はモデル品質から、電力・計算資源・土地・流通能力の支配へ広がっている。",
           "thesis": "持続的な優位は、知能を安定した大規模供給能力へ繰り返し変換できる企業に生まれる可能性がある。",
-          "nextQuestion": "州の承認と最終契約は十分に迅速にまとまり、パデューカで電力と計算の時系列を同期できるか？",
+          "nextQuestion": "規制当局は透明な監査基準と、停止解除までの明確なタイムラインを示すか？",
           "domains": [
             "AI",
             "エネルギー",
@@ -2855,10 +3459,10 @@
           "currentStageLabel": "産業金融期",
           "stageSummary": "AI拡張は、保証・専用電源・土地・建設・政策を組み合わせた融資可能な産業システムになりつつある。",
           "observeNext": [
-            "電力供給契約に関する州委員会の判断",
-            "用地・電源・送電の最終契約締結",
-            "環境審査の結果と地域許認可の節目",
-            "ガス設備・蓄電・データホールの施工シーケンス発表"
+            "監査の範囲・基準の公表",
+            "承認再開に向けた公開マイルストーン",
+            "不承認・撤回・条件付き承認の初期事例",
+            "監査期間中/後の大型負荷接続プロセスの適用整理"
           ]
         }
       },
@@ -2868,7 +3472,8 @@
         "global-2026-08-01-doe-taps-brookfield-for-paducah-ai-campus-nextera-to-build-2-gw-gas-2-6-",
         "global-2026-07-26-capacity-update",
         "global-2026-07-29-capacity",
-        "global-2026-07-31-industrial-ai"
+        "global-2026-07-31-industrial-ai",
+        "global-2026-08-03-texas-orders-comprehensive-audit-and-pauses-grid-approvals-for-new-data-"
       ],
       "contradictingInsightIds": [],
       "keyActors": [],
@@ -2879,10 +3484,10 @@
         "Physical Infrastructure"
       ],
       "nextSignals": [
-        "State utility commission decisions on power service agreements",
-        "Execution of definitive site, power, and transmission agreements",
-        "Environmental review outcomes and local permitting milestones",
-        "Announced sequencing for gas units, storage, and data halls"
+        "Publication of audit scope and criteria",
+        "Public milestones for resuming approvals",
+        "Initial denials, withdrawals, or conditional approvals",
+        "Clarification of how the large‑load connection process applies during/after the audit"
       ],
       "confidenceScore": 85
     },
@@ -3523,49 +4128,52 @@
     {
       "id": "daily-2026-08-03",
       "date": "2026-08-03",
-      "decidedAt": "2026-08-03T05:15:45.000Z",
+      "decidedAt": "2026-08-05T02:23:35.471Z",
       "state": "update_living",
-      "insightId": "global-2026-08-03-doe-extends-202-c-emergency-authority-to-spp-with-explicit-data-center-b",
-      "processId": "process-energy-security",
-      "materialChangeScore": 48,
-      "evidenceStrength": 86,
-      "noveltyScore": 58,
-      "importanceScore": 74,
+      "insightId": "global-2026-08-03-texas-orders-comprehensive-audit-and-pauses-grid-approvals-for-new-data-",
+      "processId": "process-ai-infrastructure-race",
+      "materialChangeScore": 57,
+      "evidenceStrength": 78,
+      "noveltyScore": 78,
+      "importanceScore": 86,
       "candidateSignalIds": [
-        "sig-20260803-doe-202c-spp-backupgen"
+        "sig-2026-08-03-tx-dc-audit"
       ],
       "content": {
         "en": {
           "label": "Update",
-          "decisionTitle": "Emergency authority now explicitly reaches data‑center backups in SPP",
-          "decisionSummary": "Time‑bound authority lets SPP direct critical loads to self‑supply in last‑resort scarcity, reinforcing reliability as a gating factor for digital growth.",
-          "thresholdReason": "Primary order text plus corroborating coverage meet our publication threshold.",
+          "decisionTitle": "Treat Texas interconnection as a gating risk",
+          "decisionSummary": "Assume Texas AI data center timelines are contingent on audit outcomes; near‑term capacity forecasts should incorporate ERCOT interconnection and permitting risk.",
+          "thresholdReason": "A formal state directive with corroborating coverage meets our publication threshold.",
           "observeNext": [
-            "Whether SPP issued any backup‑generation directives",
-            "If EEA‑3 conditions occurred during the window",
-            "If similar orders appear in other regions"
+            "Publication of audit criteria",
+            "Timeline to lift the pause",
+            "Early denials or withdrawals",
+            "Interaction with large‑load process"
           ]
         },
         "zh": {
           "label": "更新",
-          "decisionTitle": "SPP范围内的紧急权限现已明确涵盖数据中心后备电",
-          "decisionSummary": "在极端短缺下、于限定时段内，SPP可指令关键负荷自备供电，进一步强化“可靠性即数字化增长门槛”。",
-          "thresholdReason": "命令原文与佐证报道共同满足发布门槛。",
+          "decisionTitle": "将德州并网视为“门槛性风险”",
+          "decisionSummary": "假设德州AI数据中心的时间表取决于审查结果；短期产能预测应计入ERCOT并网与许可风险。",
+          "thresholdReason": "有正式指令与媒体佐证，满足发布门槛。",
           "observeNext": [
-            "SPP是否发布过后备发电指令",
-            "有效期内是否出现EEA‑3情形",
-            "他区是否出现类似命令"
+            "公布审查标准",
+            "解除暂停的时间表",
+            "早期否决或撤案",
+            "与大型负荷流程的衔接"
           ]
         },
         "ja": {
-          "label": "更新",
-          "decisionTitle": "SPPでデータセンター非常用発電まで明示的に対象化",
-          "decisionSummary": "期間限定の権限により、逼迫の“最後の手段”として重要需要の自給指示が可能に。信頼性がデジタル成長のゲートであることを強化。",
-          "thresholdReason": "命令本文と補足報道により閾値を満たすと判断。",
+          "label": "アップデート",
+          "decisionTitle": "テキサスの連系は“ゲーティングリスク”として扱う",
+          "decisionSummary": "テキサスのAIデータセンターのタイムラインは監査結果次第と見なし、短期の能力見通しにERCOT連系・許認可リスクを織り込む。",
+          "thresholdReason": "正式な州の指示と報道の裏取りがあり、掲載基準を満たす。",
           "observeNext": [
-            "SPPが非常用発電の指示を実施したか",
-            "期間中にEEA‑3があったか",
-            "他地域で同様の命令が出るか"
+            "監査基準の公表",
+            "停止解除までの工程表",
+            "早期の不承認・撤回",
+            "大型負荷プロセスとの整合"
           ]
         }
       }
@@ -4058,6 +4666,715 @@
     }
   ],
   "writerDrafts": [
+    {
+      "id": "writer-sig-2026-08-03-tx-dc-audit-1785896615471",
+      "status": "approved",
+      "writtenAt": "2026-08-05T02:23:35.471Z",
+      "researchDraftId": "research-2026-08-03-1785896542522",
+      "candidateId": "sig-2026-08-03-tx-dc-audit",
+      "model": "gpt-5-2025-08-07",
+      "dailyState": "update_living",
+      "matchedProcessId": "process-ai-infrastructure-race",
+      "qualityChecks": {
+        "publishThresholdMet": true,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [],
+        "humanOverrideApplied": false
+      },
+      "insight": {
+        "id": "global-2026-08-03-texas-orders-comprehensive-audit-and-pauses-grid-approvals-for-new-data-",
+        "slug": "texas-dc-audit-pause-ercot",
+        "status": "update_living",
+        "processId": "process-ai-infrastructure-race",
+        "publishedAt": "2026-08-03T00:00:00.000Z",
+        "updatedAt": "2026-08-05T02:23:35.470Z",
+        "confidence": "developing",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "The AI infrastructure race",
+              "secondaryEyebrow": "Texas grid and data centers",
+              "title": "Texas orders comprehensive audit and pauses grid approvals for new data centers",
+              "summary": "Texas directed its utility regulator and grid operator to audit all data center projects in ERCOT’s interconnection queue and pause connection approvals until audits conclude; projects that do not meet requirements will be denied. In one of the fastest‑growing AI hubs, interconnection just became a statewide gate."
+            },
+            "question": {
+              "lead": "Policy can throttle capacity faster than construction can create it.",
+              "title": "Does Texas’ audit‑and‑pause make interconnection the binding constraint for AI‑scale buildouts?",
+              "footnote": "If yes, developers may tilt toward bundled on‑site power and revisit siting and water practices to de‑risk timelines."
+            },
+            "signals": {
+              "title": "What changed and why it matters",
+              "sourceNote": "Based on an official state directive, corroborating coverage, and recent grid policy context.",
+              "items": [
+                {
+                  "id": "sig-2026-08-03-tx-dc-audit-signal-1",
+                  "label": "Trigger",
+                  "title": "State orders comprehensive audit across ERCOT’s queue",
+                  "body": "The governor instructed the regulator and grid operator to audit all queued data center projects.",
+                  "whyImportant": "Creates a single statewide review standard that cuts across individual projects.",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-03-tx-dc-audit-evidence-1",
+                      "title": "Directive mandates audit and defines scope",
+                      "description": "All data center projects in ERCOT’s interconnection queue are subject to a comprehensive audit.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src1",
+                      "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+                      "publisher": "Office of the Texas Governor",
+                      "publishedAt": "2026-08-03",
+                      "url": "https://gov.texas.gov/news",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-2026-08-03-tx-dc-audit-signal-2",
+                  "label": "Pause",
+                  "title": "Approvals to connect are halted pending audits",
+                  "body": "New grid‑connection approvals are paused until audits are complete.",
+                  "whyImportant": "Introduces an immediate timing constraint on bringing new capacity online.",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-03-tx-dc-audit-evidence-2",
+                      "title": "Audit linked to a temporary approval pause",
+                      "description": "Connection approvals are paused during the audit period.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src1",
+                        "src2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src1",
+                      "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+                      "publisher": "Office of the Texas Governor",
+                      "publishedAt": "2026-08-03",
+                      "url": "https://gov.texas.gov/news",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "src2",
+                      "title": "Gov. Greg Abbott halts Texas data center approvals - Axios San Antonio",
+                      "publisher": "Axios",
+                      "publishedAt": "2026-08-03",
+                      "url": "https://www.axios.com/local/san-antonio/2026/08/03/greg-abbott-halts-texas-data-centers-electric-grid",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "corroborating source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-2026-08-03-tx-dc-audit-signal-3",
+                  "label": "Gatekeeping",
+                  "title": "Non‑compliant projects to be denied connection",
+                  "body": "Projects that fail to meet requirements identified through the audit will be denied grid interconnection.",
+                  "whyImportant": "Raises the risk of stranded development and forces compliance up front.",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-03-tx-dc-audit-evidence-3",
+                      "title": "Directive specifies consequences for failing requirements",
+                      "description": "Projects that do not meet audit requirements will be denied grid connection.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src1",
+                      "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+                      "publisher": "Office of the Texas Governor",
+                      "publishedAt": "2026-08-03",
+                      "url": "https://gov.texas.gov/news",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-2026-08-03-tx-dc-audit-signal-4",
+                  "label": "Context",
+                  "title": "ERCOT’s process for large loads already tightened",
+                  "body": "A process tailored to connecting large electricity users was approved to protect system reliability.",
+                  "whyImportant": "Indicates pre‑existing momentum to gate large load interconnections before the statewide audit.",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-03-tx-dc-audit-evidence-4",
+                      "title": "Approval of a process focused on large‑load connections",
+                      "description": "A connection process designed for large electricity users was approved with a reliability focus.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src3"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src3",
+                      "title": "PUCT Approves ERCOT's Batch Zero Process for Connecting Large Electricity Users While Protecting System Reliability for Texans",
+                      "publisher": "ERCOT",
+                      "publishedAt": "2026-06-18",
+                      "url": "https://www.ercot.com/news/release/06182026-puct-approves-ercots",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "context source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "Additional policy momentum",
+              "before": "Agencies responded to earlier direction by asking lawmakers for more authority related to large loads.",
+              "shift": "Regulatory bodies are signaling they may need expanded tools to manage data center interconnections.",
+              "now": "Legislative follow‑through would further formalize policy gating of large loads.",
+              "conclusion": "If authority expands, policy could durably mediate the pace and shape of AI data center growth."
+            },
+            "insight": {
+              "title": "Texas turned interconnection into a policy gate",
+              "formula": "In Texas, near‑term AI compute will scale at the speed of interconnection governance.",
+              "explanation": "We expect audit timelines and compliance outcomes to shape when and how new capacity connects to the grid."
+            },
+            "observe": {
+              "title": "What to watch next",
+              "items": [
+                {
+                  "label": "Criteria",
+                  "prompt": "Publication of the audit scope, standards, and compliance criteria by regulators or the grid operator",
+                  "meta": "Confirms what “meets requirements” means in practice"
+                },
+                {
+                  "label": "Timeline",
+                  "prompt": "A public timeline or milestones for lifting the pause and resuming approvals",
+                  "meta": "Signals how long interconnection remains the pacing item"
+                },
+                {
+                  "label": "Outcomes",
+                  "prompt": "Early denials, withdrawals, or conditional approvals emerging from the audit",
+                  "meta": "Reveals how strict the bar is and which designs pass"
+                },
+                {
+                  "label": "Process fit",
+                  "prompt": "Clarification on how the large‑load connection process interacts with the new audit",
+                  "meta": "Shows whether expedited pathways remain during the pause or post‑audit phase"
+                }
+              ],
+              "ending": "Price near‑term Texas compute with an interconnection audit premium—and reward architectures that can clear it."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "AI 基础设施竞赛",
+              "secondaryEyebrow": "德州电网与数据中心",
+              "title": "德州下令全面审查并暂停新数据中心并网审批",
+              "summary": "德州要求监管机构与电网运营方对ERCOT并网排队中的所有数据中心项目进行审查，并在审查结束前暂停并网批准；未达要求者将被拒绝接入。作为AI增长最快的枢纽之一，德州把“并网”上升为全州层面的准入门槛。"
+            },
+            "question": {
+              "lead": "政策往往比施工更快改变产能曲线。",
+              "title": "德州“审查+暂停”是否让并网成为AI大规模建设的首要约束？",
+              "footnote": "若为真，开发商可能转向自备电源等一体化方案，并重估选址与用水策略以降低风险。"
+            },
+            "signals": {
+              "title": "发生了什么，为什么重要",
+              "sourceNote": "基于官方指令、媒体佐证与近期电网政策背景。",
+              "items": [
+                {
+                  "id": "sig-2026-08-03-tx-dc-audit-signal-1",
+                  "label": "触发",
+                  "title": "全州命令：对ERCOT排队中的项目开展全面审查",
+                  "body": "州长指示监管机构与电网运营方审查所有在列数据中心项目。",
+                  "whyImportant": "为全州项目设定统一的审查标准，超越单个项目层面。",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-03-tx-dc-audit-evidence-1",
+                      "title": "指令明确审查与范围",
+                      "description": "ERCOT并网队列中的全部数据中心项目被纳入全面审查。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src1",
+                      "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+                      "publisher": "Office of the Texas Governor",
+                      "publishedAt": "2026-08-03",
+                      "url": "https://gov.texas.gov/news",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-2026-08-03-tx-dc-audit-signal-2",
+                  "label": "暂停",
+                  "title": "审查期间暂停新的并网批准",
+                  "body": "在审查完成之前，新的电网接入审批处于暂停状态。",
+                  "whyImportant": "对新增产能并网形成立刻的时间约束。",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-03-tx-dc-audit-evidence-2",
+                      "title": "审查与临时审批暂停相连",
+                      "description": "审查进行期间，接入审批暂停。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src1",
+                        "src2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src1",
+                      "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+                      "publisher": "Office of the Texas Governor",
+                      "publishedAt": "2026-08-03",
+                      "url": "https://gov.texas.gov/news",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "src2",
+                      "title": "Gov. Greg Abbott halts Texas data center approvals - Axios San Antonio",
+                      "publisher": "Axios",
+                      "publishedAt": "2026-08-03",
+                      "url": "https://www.axios.com/local/san-antonio/2026/08/03/greg-abbott-halts-texas-data-centers-electric-grid",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "corroborating source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-2026-08-03-tx-dc-audit-signal-3",
+                  "label": "门槛",
+                  "title": "未达要求的项目将被拒绝并网",
+                  "body": "未满足审查要求的项目将被拒绝接入电网。",
+                  "whyImportant": "提升前期合规的重要性，也增加项目搁置风险。",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-03-tx-dc-audit-evidence-3",
+                      "title": "指令明确未达标的后果",
+                      "description": "不符合审查要求的项目将被拒绝接入。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src1",
+                      "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+                      "publisher": "Office of the Texas Governor",
+                      "publishedAt": "2026-08-03",
+                      "url": "https://gov.texas.gov/news",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-2026-08-03-tx-dc-audit-signal-4",
+                  "label": "背景",
+                  "title": "大型负荷并网流程已趋收紧",
+                  "body": "一个面向大型用电负荷的并网流程已获批准，强调系统可靠性。",
+                  "whyImportant": "显示在全州审查之前，已存在对大型负荷并网的门控趋势。",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-03-tx-dc-audit-evidence-4",
+                      "title": "聚焦大型负荷连接的流程获批",
+                      "description": "为大型用电用户设计、以可靠性为重点的连接流程获得批准。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src3"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src3",
+                      "title": "PUCT Approves ERCOT's Batch Zero Process for Connecting Large Electricity Users While Protecting System Reliability for Texans",
+                      "publisher": "ERCOT",
+                      "publishedAt": "2026-06-18",
+                      "url": "https://www.ercot.com/news/release/06182026-puct-approves-ercots",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "context source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "政策动能延续",
+              "before": "相关机构对先前要求作出回应，向立法机关申请更大权限以管理大型负荷。",
+              "shift": "监管部门释放信号，管理数据中心并网可能需要更多工具与权限。",
+              "now": "若立法推进，政策门槛将进一步制度化。",
+              "conclusion": "一旦权限扩张，政策或将更持久地影响AI数据中心的增速与路径。"
+            },
+            "insight": {
+              "title": "德州把“并网”变成政策门槛",
+              "formula": "在德州，短期AI算力的扩张速度将由并网治理的速度决定。",
+              "explanation": "预计审查节奏与合规结果将决定新产能何时、如何接入电网。"
+            },
+            "observe": {
+              "title": "接下来观察什么",
+              "items": [
+                {
+                  "label": "标准",
+                  "prompt": "监管或电网机构公布审查范围、标准与合规认定",
+                  "meta": "明确“达标”的实际含义"
+                },
+                {
+                  "label": "时间表",
+                  "prompt": "公开暂停解除的时间规划或关键里程碑",
+                  "meta": "判断并网何时不再成为节拍器"
+                },
+                {
+                  "label": "结果",
+                  "prompt": "出现早期的否决、撤案或附条件批准",
+                  "meta": "揭示门槛严苛程度与何种设计可通关"
+                },
+                {
+                  "label": "流程衔接",
+                  "prompt": "明确大型负荷并网流程与此次审查的互动方式",
+                  "meta": "判断暂停期内及审查后是否仍有加速通道"
+                }
+              ],
+              "ending": "为德州的短期算力给出“并网审查溢价”，并奖励能跨越门槛的架构。"
+            }
+          },
+          "ja": {
+            "cover": {
+              "eyebrow": "AIインフラ競争",
+              "secondaryEyebrow": "テキサスの電網とデータセンター",
+              "title": "テキサス州がデータセンターの包括監査を指示、グリッド接続の承認を一時停止",
+              "summary": "州は規制当局と系統運用者に対し、ERCOTの連系待ち行列にある全データセンタープロジェクトを監査し、完了まで接続承認を停止、要件未達の案件は接続不可とするよう指示。急伸するAI拠点で、連系が全州レベルのゲートになった。"
+            },
+            "question": {
+              "lead": "政策は施工より速く、供給曲線を変える。",
+              "title": "監査と一時停止は、AI規模の増設における“連系”を支配的制約にするのか？",
+              "footnote": "そうなれば、開発はオンサイト電源の一体化や立地・用水の見直しでリスク低減を図る可能性が高い。"
+            },
+            "signals": {
+              "title": "変化点と意味合い",
+              "sourceNote": "州の公式指示、報道の裏取り、最近の電網方針を基に整理。",
+              "items": [
+                {
+                  "id": "sig-2026-08-03-tx-dc-audit-signal-1",
+                  "label": "トリガー",
+                  "title": "ERCOTの待ち行列全件に包括監査を指示",
+                  "body": "州知事が規制当局と系統運用者に対し、全データセンター案件の監査を求めた。",
+                  "whyImportant": "個別案件を超えて、全州で統一基準の審査がかかる。",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-03-tx-dc-audit-evidence-1",
+                      "title": "指示が監査と対象範囲を明示",
+                      "description": "ERCOTの連系行列にある全データセンター案件が監査対象。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src1",
+                      "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+                      "publisher": "Office of the Texas Governor",
+                      "publishedAt": "2026-08-03",
+                      "url": "https://gov.texas.gov/news",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-2026-08-03-tx-dc-audit-signal-2",
+                  "label": "停止",
+                  "title": "監査完了まで接続承認を停止",
+                  "body": "監査が完了するまで新規の系統接続承認は保留される。",
+                  "whyImportant": "新規キャパシティの立ち上げに即時の時間制約を導入。",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-03-tx-dc-audit-evidence-2",
+                      "title": "監査と一時停止の連動",
+                      "description": "監査期間中は接続承認が停止される。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src1",
+                        "src2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src1",
+                      "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+                      "publisher": "Office of the Texas Governor",
+                      "publishedAt": "2026-08-03",
+                      "url": "https://gov.texas.gov/news",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "src2",
+                      "title": "Gov. Greg Abbott halts Texas data center approvals - Axios San Antonio",
+                      "publisher": "Axios",
+                      "publishedAt": "2026-08-03",
+                      "url": "https://www.axios.com/local/san-antonio/2026/08/03/greg-abbott-halts-texas-data-centers-electric-grid",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "corroborating source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-2026-08-03-tx-dc-audit-signal-3",
+                  "label": "ゲート",
+                  "title": "要件未達の案件は接続不可",
+                  "body": "監査で要件を満たさない案件は系統接続が認められない。",
+                  "whyImportant": "前倒しのコンプライアンスを迫り、開発の座礁リスクを高める。",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-03-tx-dc-audit-evidence-3",
+                      "title": "未達時の帰結を明記",
+                      "description": "要件を満たさない案件は系統接続を拒否。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src1",
+                      "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+                      "publisher": "Office of the Texas Governor",
+                      "publishedAt": "2026-08-03",
+                      "url": "https://gov.texas.gov/news",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-2026-08-03-tx-dc-audit-signal-4",
+                  "label": "文脈",
+                  "title": "大型負荷向け接続プロセスが強化済み",
+                  "body": "大型電力需要者向けの接続プロセスが、信頼性確保を目的に承認されている。",
+                  "whyImportant": "全州監査に先立ち、大型負荷接続を門戸管理する流れが既にあったことを示す。",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-03-tx-dc-audit-evidence-4",
+                      "title": "大型負荷接続に焦点を当てたプロセスの承認",
+                      "description": "大型需要家向けで信頼性を重視した接続プロセスが承認。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src3"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src3",
+                      "title": "PUCT Approves ERCOT's Batch Zero Process for Connecting Large Electricity Users While Protecting System Reliability for Texans",
+                      "publisher": "ERCOT",
+                      "publishedAt": "2026-06-18",
+                      "url": "https://www.ercot.com/news/release/06182026-puct-approves-ercots",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "context source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "政策モメンタムの継続",
+              "before": "関係機関は先の指示に応じ、立法府により強い権限を求めた。",
+              "shift": "規制当局はデータセンター連系の管理に追加の権限が必要となる可能性を示唆。",
+              "now": "権限が法制化されれば、門戸管理はさらに制度として固定化される。",
+              "conclusion": "権限拡大が進めば、AIデータセンターの成長速度と構成は、政策によってより強く媒介される。"
+            },
+            "insight": {
+              "title": "テキサスは“連系”を政策ゲートにした",
+              "formula": "テキサスでは、短期のAIコンピュートは連系ガバナンスの速度で伸びる。",
+              "explanation": "監査の時間軸と適合結果が、新設容量の接続時期と形態を左右すると見込まれる。"
+            },
+            "observe": {
+              "title": "次に検証すること",
+              "items": [
+                {
+                  "label": "基準",
+                  "prompt": "規制当局や系統運用者が監査の範囲・基準・適合判断を公表するか",
+                  "meta": "実務上の“要件充足”を可視化"
+                },
+                {
+                  "label": "工程",
+                  "prompt": "停止解除に向けたスケジュールやマイルストーンの提示",
+                  "meta": "連系が“テンポ”でなくなる時期を示す"
+                },
+                {
+                  "label": "判定",
+                  "prompt": "監査に伴う早期の不承認・撤回・条件付き承認の発生",
+                  "meta": "基準の厳しさと通過しうる設計を把握"
+                },
+                {
+                  "label": "整合",
+                  "prompt": "大型負荷向け接続プロセスと今回の監査の関係整理",
+                  "meta": "停止期間中・監査後も迅速化経路が残るかを確認"
+                }
+              ],
+              "ending": "テキサスの短期コンピュートには“連系監査プレミアム”を織り込み、通過可能な設計を評価せよ。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-2026-08-03",
+        "date": "2026-08-03",
+        "decidedAt": "2026-08-05T02:23:35.471Z",
+        "state": "update_living",
+        "insightId": "global-2026-08-03-texas-orders-comprehensive-audit-and-pauses-grid-approvals-for-new-data-",
+        "processId": "process-ai-infrastructure-race",
+        "materialChangeScore": 57,
+        "evidenceStrength": 78,
+        "noveltyScore": 78,
+        "importanceScore": 86,
+        "candidateSignalIds": [
+          "sig-2026-08-03-tx-dc-audit"
+        ],
+        "content": {
+          "en": {
+            "label": "Update",
+            "decisionTitle": "Treat Texas interconnection as a gating risk",
+            "decisionSummary": "Assume Texas AI data center timelines are contingent on audit outcomes; near‑term capacity forecasts should incorporate ERCOT interconnection and permitting risk.",
+            "thresholdReason": "A formal state directive with corroborating coverage meets our publication threshold.",
+            "observeNext": [
+              "Publication of audit criteria",
+              "Timeline to lift the pause",
+              "Early denials or withdrawals",
+              "Interaction with large‑load process"
+            ]
+          },
+          "zh": {
+            "label": "更新",
+            "decisionTitle": "将德州并网视为“门槛性风险”",
+            "decisionSummary": "假设德州AI数据中心的时间表取决于审查结果；短期产能预测应计入ERCOT并网与许可风险。",
+            "thresholdReason": "有正式指令与媒体佐证，满足发布门槛。",
+            "observeNext": [
+              "公布审查标准",
+              "解除暂停的时间表",
+              "早期否决或撤案",
+              "与大型负荷流程的衔接"
+            ]
+          },
+          "ja": {
+            "label": "アップデート",
+            "decisionTitle": "テキサスの連系は“ゲーティングリスク”として扱う",
+            "decisionSummary": "テキサスのAIデータセンターのタイムラインは監査結果次第と見なし、短期の能力見通しにERCOT連系・許認可リスクを織り込む。",
+            "thresholdReason": "正式な州の指示と報道の裏取りがあり、掲載基準を満たす。",
+            "observeNext": [
+              "監査基準の公表",
+              "停止解除までの工程表",
+              "早期の不承認・撤回",
+              "大型負荷プロセスとの整合"
+            ]
+          }
+        }
+      },
+      "processUpdate": {
+        "processId": "process-ai-infrastructure-race",
+        "updatedAt": "2026-08-05T02:23:35.471Z",
+        "appendInsightId": "global-2026-08-03-texas-orders-comprehensive-audit-and-pauses-grid-approvals-for-new-data-",
+        "evolutionEvent": {
+          "id": "evolution-sig-2026-08-03-tx-dc-audit",
+          "date": "2026-08-03",
+          "stage": "structural",
+          "impact": "updates",
+          "insightId": "global-2026-08-03-texas-orders-comprehensive-audit-and-pauses-grid-approvals-for-new-data-",
+          "content": {
+            "en": {
+              "title": "Texas introduces a statewide policy gate on data center interconnections",
+              "description": "A directive orders a comprehensive audit of all data center projects in ERCOT’s queue and pauses approvals until audits conclude, with non‑compliant projects to be denied connection.",
+              "implication": "Expect build sequencing and financing to reflect audit timing and compliance risk; integrated power strategies may gain favor."
+            },
+            "zh": {
+              "title": "德州在数据中心并网上设立全州政策门槛",
+              "description": "一项指令要求对ERCOT并网排队中的所有数据中心项目进行全面审查，在审查完成前暂停审批，未达要求者将被拒绝接入。",
+              "implication": "建设节奏与融资将更多取决于审查进度与合规风险；配套电源一体化策略或更受青睐。"
+            },
+            "ja": {
+              "title": "テキサスがデータセンター連系に全州的な政策ゲートを導入",
+              "description": "ERCOTの行列にある全データセンター案件の包括監査を命じ、完了まで承認を停止。要件未達は接続不可とする方針。",
+              "implication": "建設シーケンスや資金調達は監査の時間軸と適合リスクを反映。電源一体型の戦略が優位になる可能性。"
+            }
+          }
+        },
+        "nextQuestion": {
+          "en": "Will regulators publish transparent audit criteria and a clear timeline to lift the pause?",
+          "zh": "监管机构是否会公布透明的审查标准和明确的解禁时间表？",
+          "ja": "規制当局は透明な監査基準と、停止解除までの明確なタイムラインを示すか？"
+        },
+        "observeNext": {
+          "en": [
+            "Publication of audit scope and criteria",
+            "Public milestones for resuming approvals",
+            "Initial denials, withdrawals, or conditional approvals",
+            "Clarification of how the large‑load connection process applies during/after the audit"
+          ],
+          "zh": [
+            "公布审查范围与标准",
+            "恢复审批的公开里程碑",
+            "出现否决、撤案或附条件批准",
+            "明确大型负荷并网流程在审查期内/之后的适用方式"
+          ],
+          "ja": [
+            "監査の範囲・基準の公表",
+            "承認再開に向けた公開マイルストーン",
+            "不承認・撤回・条件付き承認の初期事例",
+            "監査期間中/後の大型負荷接続プロセスの適用整理"
+          ]
+        }
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-08-05T04:13:53.476Z",
+        "override": false,
+        "overrideReason": null,
+        "originalPublishThresholdMet": true,
+        "originalDailyState": "update_living"
+      },
+      "approvedAt": "2026-08-05T04:13:53.476Z"
+    },
     {
       "id": "writer-sig-20260803-doe-202c-spp-backupgen-1785734145000",
       "status": "approved",
@@ -6424,11 +7741,11 @@
   ],
   "processFoundation": {
     "version": 2,
-    "lastUpdatedAt": "2026-08-03T05:16:19.753Z",
-    "lastMatchedProcessId": "process-energy-security"
+    "lastUpdatedAt": "2026-08-05T04:13:53.476Z",
+    "lastMatchedProcessId": "process-ai-infrastructure-race"
   },
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-08-03T05:16:20.704Z"
+    "repairedAt": "2026-08-05T04:13:54.362Z"
   }
 }
